@@ -8,6 +8,8 @@ export class StakeControl extends PIXI.Container {
     balance :number
     win : number
     maxCount :number
+incBtn!: PIXI.Sprite;
+  decBtn!: PIXI.Sprite;
   constructor(app:PIXI.Application) { 
     super();
     this.app=app;
@@ -17,20 +19,21 @@ export class StakeControl extends PIXI.Container {
     this.win =0;
     this.maxCount = 100;
     this.build()
+    this.updateStakeUI()
   }
   build(){
     const controls = new PIXI.Container;
 
 
-    const incBtn = new PIXI.Sprite(this.textures.incBtn);
-    incBtn.anchor.set(0.5)
-    incBtn.scale.set(0.5)
-    incBtn.position.set(this.app.screen.width-165,this.app.screen.height-40)
+    this.incBtn = new PIXI.Sprite(this.textures.incBtn);
+    this.incBtn.anchor.set(0.5)
+    this.incBtn.scale.set(0.5)
+    this.incBtn.position.set(this.app.screen.width-165,this.app.screen.height-40)
 
-    const decBtn = new PIXI.Sprite(this.textures.decBtn);
-    decBtn.anchor.set(0.5)
-    decBtn.scale.set(0.5)
-    decBtn.position.set(this.app.screen.width-382,this.app.screen.height-40)
+     this.decBtn = new PIXI.Sprite(this.textures.decBtn);
+    this.decBtn.anchor.set(0.5)
+    this.decBtn.scale.set(0.5)
+    this.decBtn.position.set(this.app.screen.width-382,this.app.screen.height-40)
      
    
     const stakeDisp = new PIXI.Sprite(this.textures.stakeBg);
@@ -92,24 +95,51 @@ export class StakeControl extends PIXI.Container {
     BalWin.position.set(150,this.app.screen.height-60)
 
 
-    incBtn.eventMode = "static"
-    incBtn.cursor ="pointer"
-    decBtn.eventMode = "static"
-    decBtn.cursor ="pointer"
+    this.incBtn.eventMode = "static"
+    this.incBtn.cursor ="pointer"
+    this.decBtn.eventMode = "static"
+    this.decBtn.cursor ="pointer"
 
-    incBtn.on("pointerdown" , ()=>{
+    this.incBtn.on("pointerdown" , ()=>{
         if(this.stakeAmount<this.maxCount){
             this.stakeAmount+=20;
             stakeText.text= `$${this.stakeAmount}\nSTAKE`
         }
+         this.updateStakeUI()
     })
-    decBtn.on("pointerdown" , ()=>{
+    this.decBtn.on("pointerdown" , ()=>{
         if(this.stakeAmount>0){
             this.stakeAmount-=20
              stakeText.text= `$${this.stakeAmount}\nSTAKE`
         }
+         this.updateStakeUI()
     })
+   
+ 
     
-    this.addChild(incBtn,decBtn,StakeDisplay,BalWin)
+    this.addChild(this.incBtn,this.decBtn,StakeDisplay,BalWin)
   }
+
+    updateStakeUI(){
+        const textures=this.textures;
+     if(this.stakeAmount===this.maxCount){
+        this.incBtn.texture = this.textures.incBtnDisabled
+        this.incBtn.eventMode="none"
+         this.incBtn.cursor="normal"
+    }else{
+          this.incBtn.texture = this.textures.incBtn
+           this.incBtn.eventMode="static"
+            this.incBtn.cursor="pointer"
+    }
+    if(this.stakeAmount<=0){
+        this.decBtn.texture = this.textures.decBtnDisabled
+         this.decBtn.eventMode="none"
+         this.decBtn.cursor="normal"
+    }else{
+         this.decBtn.texture = this.textures.decBtn
+          this.decBtn.eventMode="static"
+          this.decBtn.cursor="pointer"
+          
+    }
+   }
 }

@@ -17,7 +17,11 @@ export class AssetLoader {
       playScreen:await PIXI.Assets.load("/sourceAssets/reelFrame/assets/reelframe.png"),
       playScreenBg:await PIXI.Assets.load("/sourceAssets/reelFrame/assets/reelFrameBG.png"),
       incBtn:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/plusIcon_normal.png"),
+      incBtnHover:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/plusIcon_hover.png"),
+      incBtnDisabled :await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/plusIcon_disabled.png"),
       decBtn:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/minusIcon_normal.png"),
+      decBtnHover:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/minusIcon_hover.png"),
+      decBtnDisabled :await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/minusIcon_disabled.png"),
       stakeBg:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/darkBalance_bg.png"),
       
     };
