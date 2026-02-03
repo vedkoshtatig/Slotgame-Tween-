@@ -30,7 +30,7 @@ export class AssetLoader {
       autoSpinBtn:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_autospin_normal.png"),
       autoSpinBtnHover:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_autospin_hover.png"),
       autoSpinBtnDown:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_autospin_down.png"),
-      autoSpinBtnDisabled:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_autospin_disabled.png"),
+      autoSpinBtnDisabled:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/spineBtn_main_disabled.png"),
       turboSpinBtn:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_quickSpinOn_normal.png"),
       turboSpinBtnHover:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_quickSpinOn_hover.png"),
       turboSpinBtnDown:await PIXI.Assets.load("/sourceAssets/gamePanel/newPanel/assets/menu_quickSpinOn_down.png"),

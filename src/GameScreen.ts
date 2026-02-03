@@ -2,14 +2,17 @@ import * as PIXI from "pixi.js"
 import {AssetLoader} from "./AssetLoader"
 import {StakeControl} from "./StakeControl"
 import {GameButtons} from ".//GameButtons"
+import {ReelArea} from "./ReelArea"
 export class GameScreen extends PIXI.Container{
     textures: Record<string, PIXI.Texture >
     stakeControl:StakeControl;
     gameButtons:GameButtons
+    reelArea : ReelArea
     app:PIXI.Application;
     constructor(app:PIXI.Application){
         super();
         this.app=app;
+        this.reelArea = new ReelArea(this.app)
         this.stakeControl = new StakeControl(this.app);
         this.gameButtons = new GameButtons(this.app)
         this.textures = AssetLoader.textures;
@@ -37,7 +40,7 @@ export class GameScreen extends PIXI.Container{
         playScreen.addChild(playScreenBg,playScreenFg)
 
         
-        this.addChild(gameLogo,playScreen,this.stakeControl,this.gameButtons)
+        this.addChild(gameLogo,playScreen,this.stakeControl,this.gameButtons,this.reelArea)
         
     }
 }
