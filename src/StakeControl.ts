@@ -135,7 +135,7 @@ incBtn!: PIXI.Sprite;
            this.incBtn.eventMode="static"
             this.incBtn.cursor="pointer"
     }
-    if(this.stakeAmount<=0){
+    if(this.stakeAmount<=20){
         this.decBtn.texture = this.textures.decBtnDisabled
          this.decBtn.eventMode="none"
          this.decBtn.cursor="normal"
