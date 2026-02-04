@@ -112,6 +112,36 @@ export class ReelArea extends PIXI.Container {
     this.addChild(mask);
   }
 
+  ///Initial Spawn destroyed at first spin
+  initSpawnNormalReels() {
+   
+
+    const totalWidth =
+      this.reelCount * this.symbolSize + (this.reelCount - 1) * this.reelGap;
+
+    const startX = this.app.screen.width / 2 + 63 - totalWidth / 2;
+
+    for (let i = 0; i < this.reelCount; i++) {
+      const reel = new PIXI.Container();
+      reel.x = startX + i * (this.symbolSize + this.reelGap);
+
+      for (let j = 0; j < this.rowsCount; j++) {
+        const tex =
+          this.normalSymbolTextures[
+            Math.floor(Math.random() * this.normalSymbolTextures.length)
+          ];
+
+        const symbol = new PIXI.Sprite(tex);
+        symbol.width = symbol.height = this.symbolSize;
+        symbol.y = j * (this.symbolSize + this.symbolGapY)+ this.reelHeight;
+
+        reel.addChild(symbol);
+      }
+
+      this.reelsContainer.addChild(reel);
+    }
+  }
+
   // NORMAL REELS random result
 
   spawnNormalReels() {
@@ -170,35 +200,7 @@ export class ReelArea extends PIXI.Container {
     }
   }
 
-  ///Initial Spawn destroyed at first spin
-  initSpawnNormalReels() {
-    this.reelsContainer.removeChildren();
-
-    const totalWidth =
-      this.reelCount * this.symbolSize + (this.reelCount - 1) * this.reelGap;
-
-    const startX = this.app.screen.width / 2 + 63 - totalWidth / 2;
-
-    for (let i = 0; i < this.reelCount; i++) {
-      const reel = new PIXI.Container();
-      reel.x = startX + i * (this.symbolSize + this.reelGap);
-
-      for (let j = 0; j < this.rowsCount; j++) {
-        const tex =
-          this.normalSymbolTextures[
-            Math.floor(Math.random() * this.normalSymbolTextures.length)
-          ];
-
-        const symbol = new PIXI.Sprite(tex);
-        symbol.width = symbol.height = this.symbolSize;
-        symbol.y = j * (this.symbolSize + this.symbolGapY) + 750;
-
-        reel.addChild(symbol);
-      }
-
-      this.reelsContainer.addChild(reel);
-    }
-  }
+  
 
   // BLUR REELS
 
