@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@assetpack/core": "^1.7.0",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.1.14"
   },

@@ -1,0 +1,4049 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": []
+    },
+    {
+      "name": "backgrounds",
+      "assets": [
+        {
+          "alias": [
+            "backgrounds/assets/bg.png",
+            "bg.png"
+          ],
+          "src": [
+            "backgrounds/assets/bg-TQL8tA.png",
+            "backgrounds/assets/bg-Q90Qrg.webp",
+            "backgrounds/assets/bg-nfuoUA@0.5x.webp",
+            "backgrounds/assets/bg-fJcaEg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/bgFs.png",
+            "bgFs.png"
+          ],
+          "src": [
+            "backgrounds/assets/bgFs-YMITEQ@0.5x.webp",
+            "backgrounds/assets/bgFs-mdvFbQ@0.5x.png",
+            "backgrounds/assets/bgFs-ic8qKw.png",
+            "backgrounds/assets/bgFs-4tmSNQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/bgVPFS.png",
+            "bgVPFS.png"
+          ],
+          "src": [
+            "backgrounds/assets/bgVPFS-ZC4suw.png",
+            "backgrounds/assets/bgVPFS-clJUOQ.webp",
+            "backgrounds/assets/bgVPFS-9n-Reg@0.5x.webp",
+            "backgrounds/assets/bgVPFS-5tXI4Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/BonusBG.png",
+            "BonusBG.png"
+          ],
+          "src": [
+            "backgrounds/assets/BonusBG-TQL8tA.png",
+            "backgrounds/assets/BonusBG-Q90Qrg.webp",
+            "backgrounds/assets/BonusBG-nfuoUA@0.5x.webp",
+            "backgrounds/assets/BonusBG-fJcaEg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/bonusVPBG.png",
+            "bonusVPBG.png"
+          ],
+          "src": [
+            "backgrounds/assets/bonusVPBG-ZC4suw.png",
+            "backgrounds/assets/bonusVPBG-clJUOQ.webp",
+            "backgrounds/assets/bonusVPBG-9n-Reg@0.5x.webp",
+            "backgrounds/assets/bonusVPBG-5tXI4Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/lockFeatuerBg.jpg",
+            "lockFeatuerBg.jpg"
+          ],
+          "src": [
+            "backgrounds/assets/lockFeatuerBg-YfEbyQ.webp",
+            "backgrounds/assets/lockFeatuerBg-TFlb5A@0.5x.webp",
+            "backgrounds/assets/lockFeatuerBg-oPeswg.jpg",
+            "backgrounds/assets/lockFeatuerBg-3TSG3A@0.5x.jpg"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/lockFeatuerVl.jpg",
+            "lockFeatuerVl.jpg"
+          ],
+          "src": [
+            "backgrounds/assets/lockFeatuerVl-QaO0gw.webp",
+            "backgrounds/assets/lockFeatuerVl-egF1kA@0.5x.jpg",
+            "backgrounds/assets/lockFeatuerVl-7ysAvg.jpg",
+            "backgrounds/assets/lockFeatuerVl-2yzuSw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/assets/mobile_bg.png",
+            "mobile_bg.png"
+          ],
+          "src": [
+            "backgrounds/assets/mobile_bg-UUsLog@0.5x.webp",
+            "backgrounds/assets/mobile_bg-Fmiq@0.5x.png",
+            "backgrounds/assets/mobile_bg-f1ErXA.png",
+            "backgrounds/assets/mobile_bg-a7eY.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "backgrounds/Background.tps",
+            "Background.tps"
+          ],
+          "src": [
+            "backgrounds/Background-G8xE6Q.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "gameLogo",
+      "assets": [
+        {
+          "alias": [
+            "gameLogo/assets/7.png",
+            "7.png"
+          ],
+          "src": [
+            "gameLogo/assets/7-yTZi.png",
+            "gameLogo/assets/7-W3qkKw@0.5x.png",
+            "gameLogo/assets/7-SQ24cQ.webp",
+            "gameLogo/assets/7-P8vY0Q@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gameLogo/assets/gameLogo.png",
+            "gameLogo.png"
+          ],
+          "src": [
+            "gameLogo/assets/gameLogo-t0PSIQ.webp",
+            "gameLogo/assets/gameLogo-PYnL.png",
+            "gameLogo/assets/gameLogo-bvSuQQ@0.5x.png",
+            "gameLogo/assets/gameLogo-_5Xa-w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gameLogo/GameLogo.tps",
+            "GameLogo.tps"
+          ],
+          "src": [
+            "gameLogo/GameLogo-UgNFSw.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "gamePanel",
+      "assets": [
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_bg.png",
+            "Autospin_options_selected_tabs_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_bg-l23I0w.png",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_bg-g7M5.webp",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_bg-F-lWQw@0.5x.png",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_bg-5GOh3g@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_title.png",
+            "Autospin_options_selected_tabs_title.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_title-zNgtNw@0.5x.png",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_title-uzx3CA.png",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_title-O1qsdg.webp",
+            "gamePanel/newPanel/assets/Autospin_options_selected_tabs_title-iMly3w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/autostop_disabled.png",
+            "autostop_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/autostop_disabled-ZT9POQ.png",
+            "gamePanel/newPanel/assets/autostop_disabled-MnYEAQ.webp",
+            "gamePanel/newPanel/assets/autostop_disabled-eSTj0Q@0.5x.png",
+            "gamePanel/newPanel/assets/autostop_disabled-285UiQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/autostop_down.png",
+            "autostop_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/autostop_down-q5GoCQ.png",
+            "gamePanel/newPanel/assets/autostop_down-GijOcg@0.5x.png",
+            "gamePanel/newPanel/assets/autostop_down-a0GVHA.webp",
+            "gamePanel/newPanel/assets/autostop_down-9ZrtrA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/autostop_hover.png",
+            "autostop_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/autostop_hover-zOFwsw.png",
+            "gamePanel/newPanel/assets/autostop_hover-lcTbNA@0.5x.webp",
+            "gamePanel/newPanel/assets/autostop_hover-hC55jA@0.5x.png",
+            "gamePanel/newPanel/assets/autostop_hover-7w8OHQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/autostop_normal.png",
+            "autostop_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/autostop_normal-UZ6TCA.png",
+            "gamePanel/newPanel/assets/autostop_normal-tJfgLQ@0.5x.png",
+            "gamePanel/newPanel/assets/autostop_normal-rllBSQ@0.5x.webp",
+            "gamePanel/newPanel/assets/autostop_normal-30N4xA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button.png",
+            "button.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button-OZRWpg.webp",
+            "gamePanel/newPanel/assets/button-LVn-fA.png",
+            "gamePanel/newPanel/assets/button-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/button-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_disabled.png",
+            "button_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_disabled-OZRWpg.webp",
+            "gamePanel/newPanel/assets/button_disabled-LVn-fA.png",
+            "gamePanel/newPanel/assets/button_disabled-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/button_disabled-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_down.png",
+            "button_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_down-OZRWpg.webp",
+            "gamePanel/newPanel/assets/button_down-LVn-fA.png",
+            "gamePanel/newPanel/assets/button_down-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/button_down-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_hover.png",
+            "button_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_hover-OZRWpg.webp",
+            "gamePanel/newPanel/assets/button_hover-LVn-fA.png",
+            "gamePanel/newPanel/assets/button_hover-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/button_hover-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_non_disabled.png",
+            "button_non_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_non_disabled-9qdf8A@0.5x.webp",
+            "gamePanel/newPanel/assets/button_non_disabled-6tHnhQ.png",
+            "gamePanel/newPanel/assets/button_non_disabled-5XHEZg@0.5x.png",
+            "gamePanel/newPanel/assets/button_non_disabled-1DrZEA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_non_down.png",
+            "button_non_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_non_down-9qdf8A@0.5x.webp",
+            "gamePanel/newPanel/assets/button_non_down-6tHnhQ.png",
+            "gamePanel/newPanel/assets/button_non_down-5XHEZg@0.5x.png",
+            "gamePanel/newPanel/assets/button_non_down-1DrZEA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_non_hover.png",
+            "button_non_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_non_hover-9qdf8A@0.5x.webp",
+            "gamePanel/newPanel/assets/button_non_hover-6tHnhQ.png",
+            "gamePanel/newPanel/assets/button_non_hover-5XHEZg@0.5x.png",
+            "gamePanel/newPanel/assets/button_non_hover-1DrZEA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_non_normal.png",
+            "button_non_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_non_normal-9qdf8A@0.5x.webp",
+            "gamePanel/newPanel/assets/button_non_normal-6tHnhQ.png",
+            "gamePanel/newPanel/assets/button_non_normal-5XHEZg@0.5x.png",
+            "gamePanel/newPanel/assets/button_non_normal-1DrZEA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/button_normal.png",
+            "button_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/button_normal-OZRWpg.webp",
+            "gamePanel/newPanel/assets/button_normal-LVn-fA.png",
+            "gamePanel/newPanel/assets/button_normal-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/button_normal-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeBtn_menu.png",
+            "closeBtn_menu.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeBtn_menu-IzkloA@0.5x.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu-8Lr8-w.png",
+            "gamePanel/newPanel/assets/closeBtn_menu-7XB-9w.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu-5esq9A@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeBtn_menu_disabled.png",
+            "closeBtn_menu_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeBtn_menu_disabled-cuXHIw.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_disabled-bS9IxA.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_disabled-3RvnkA@0.5x.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_disabled-_-TYSA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeBtn_menu_down.png",
+            "closeBtn_menu_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeBtn_menu_down-zuOVVA@0.5x.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_down-Iiwx4g.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_down-81oyPQ@0.5x.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_down-4SmJmw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeBtn_menu_hover.png",
+            "closeBtn_menu_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeBtn_menu_hover-wbNZSA.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_hover-PY1h2g.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_hover-OFMGVw@0.5x.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_hover-JUGzVQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeBtn_menu_normal.png",
+            "closeBtn_menu_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeBtn_menu_normal-IzkloA@0.5x.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_normal-8Lr8-w.png",
+            "gamePanel/newPanel/assets/closeBtn_menu_normal-7XB-9w.webp",
+            "gamePanel/newPanel/assets/closeBtn_menu_normal-5esq9A@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeIcon_disabled.png",
+            "closeIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeIcon_disabled-Qm2LBA.png",
+            "gamePanel/newPanel/assets/closeIcon_disabled-M8u8eg.webp",
+            "gamePanel/newPanel/assets/closeIcon_disabled-crp9_g@0.5x.webp",
+            "gamePanel/newPanel/assets/closeIcon_disabled-6SHX1Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeIcon_hover.png",
+            "closeIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeIcon_hover-Qm2LBA.png",
+            "gamePanel/newPanel/assets/closeIcon_hover-M8u8eg.webp",
+            "gamePanel/newPanel/assets/closeIcon_hover-crp9_g@0.5x.webp",
+            "gamePanel/newPanel/assets/closeIcon_hover-6SHX1Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/closeIcon_normal.png",
+            "closeIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/closeIcon_normal-Qm2LBA.png",
+            "gamePanel/newPanel/assets/closeIcon_normal-M8u8eg.webp",
+            "gamePanel/newPanel/assets/closeIcon_normal-crp9_g@0.5x.webp",
+            "gamePanel/newPanel/assets/closeIcon_normal-6SHX1Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/cross-btn_disabled.png",
+            "cross-btn_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/cross-btn_disabled-p3BYiQ.png",
+            "gamePanel/newPanel/assets/cross-btn_disabled-KkZzDQ@0.5x.webp",
+            "gamePanel/newPanel/assets/cross-btn_disabled-JlxA0A.webp",
+            "gamePanel/newPanel/assets/cross-btn_disabled-_LdGUA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/cross-btn_down.png",
+            "cross-btn_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/cross-btn_down-VO95Ew@0.5x.png",
+            "gamePanel/newPanel/assets/cross-btn_down-U2NW.png",
+            "gamePanel/newPanel/assets/cross-btn_down-I0cPjQ@0.5x.webp",
+            "gamePanel/newPanel/assets/cross-btn_down-GXbOwQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/cross-btn_normal.png",
+            "cross-btn_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/cross-btn_normal-L9LtGQ.png",
+            "gamePanel/newPanel/assets/cross-btn_normal-KrThSQ.webp",
+            "gamePanel/newPanel/assets/cross-btn_normal-dJaVrw@0.5x.png",
+            "gamePanel/newPanel/assets/cross-btn_normal-5cYnmg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/cross-btn_selected.png",
+            "cross-btn_selected.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/cross-btn_selected-zYkZFw.webp",
+            "gamePanel/newPanel/assets/cross-btn_selected-SIn_Sw@0.5x.webp",
+            "gamePanel/newPanel/assets/cross-btn_selected-jW8KAg.png",
+            "gamePanel/newPanel/assets/cross-btn_selected-4g0xuA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkBalance_bg.png",
+            "darkBalance_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkBalance_bg-iFvVfw@0.5x.webp",
+            "gamePanel/newPanel/assets/darkBalance_bg-eSNhGQ@0.5x.png",
+            "gamePanel/newPanel/assets/darkBalance_bg-1oByfA.webp",
+            "gamePanel/newPanel/assets/darkBalance_bg--QKuzQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkBalance_bg0.png",
+            "darkBalance_bg0.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkBalance_bg0-QdlZ.png",
+            "gamePanel/newPanel/assets/darkBalance_bg0-gxyg.webp",
+            "gamePanel/newPanel/assets/darkBalance_bg0-5DSktg@0.5x.png",
+            "gamePanel/newPanel/assets/darkBalance_bg0-3oxwrQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkBalance_bg1.png",
+            "darkBalance_bg1.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkBalance_bg1-65rUGA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkBalance_bg1-3J0uOw@0.5x.png",
+            "gamePanel/newPanel/assets/darkBalance_bg1-1Zg4Aw.png",
+            "gamePanel/newPanel/assets/darkBalance_bg1-_09WCw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkIcon_bg.png",
+            "darkIcon_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkIcon_bg-xNVt7A.png",
+            "gamePanel/newPanel/assets/darkIcon_bg-iYtxAg@0.5x.png",
+            "gamePanel/newPanel/assets/darkIcon_bg-69xZlA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkIcon_bg--DCN3w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkIcon_bg_disabled.png",
+            "darkIcon_bg_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkIcon_bg_disabled-xNVt7A.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_disabled-iYtxAg@0.5x.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_disabled-69xZlA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkIcon_bg_disabled--DCN3w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkIcon_bg_down.png",
+            "darkIcon_bg_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkIcon_bg_down-xNVt7A.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_down-iYtxAg@0.5x.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_down-69xZlA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkIcon_bg_down--DCN3w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkIcon_bg_hover.png",
+            "darkIcon_bg_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkIcon_bg_hover-xNVt7A.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_hover-iYtxAg@0.5x.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_hover-69xZlA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkIcon_bg_hover--DCN3w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/darkIcon_bg_normal.png",
+            "darkIcon_bg_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/darkIcon_bg_normal-xNVt7A.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_normal-iYtxAg@0.5x.png",
+            "gamePanel/newPanel/assets/darkIcon_bg_normal-69xZlA@0.5x.webp",
+            "gamePanel/newPanel/assets/darkIcon_bg_normal--DCN3w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/fullscreenIcon.png",
+            "fullscreenIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/fullscreenIcon-XjTTPg@0.5x.png",
+            "gamePanel/newPanel/assets/fullscreenIcon-Tw--pw.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon-sSFhiA@0.5x.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon-aQUEJw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/fullscreenIcon_disabled.png",
+            "fullscreenIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/fullscreenIcon_disabled-ZPjrQw@0.5x.png",
+            "gamePanel/newPanel/assets/fullscreenIcon_disabled-uO84aQ@0.5x.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_disabled-FFiCHg.png",
+            "gamePanel/newPanel/assets/fullscreenIcon_disabled-7CAzgg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/fullscreenIcon_down.png",
+            "fullscreenIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/fullscreenIcon_down-nPjHSA.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_down-l9v3uQ@0.5x.png",
+            "gamePanel/newPanel/assets/fullscreenIcon_down-iQwTYA@0.5x.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_down-grExgg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/fullscreenIcon_hover.png",
+            "fullscreenIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/fullscreenIcon_hover-UfbTQA.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_hover-rEO_MA@0.5x.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_hover-lp03Xw@0.5x.png",
+            "gamePanel/newPanel/assets/fullscreenIcon_hover-GJI59w.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/fullscreenIcon_normal.png",
+            "fullscreenIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/fullscreenIcon_normal-XjTTPg@0.5x.png",
+            "gamePanel/newPanel/assets/fullscreenIcon_normal-Tw--pw.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_normal-sSFhiA@0.5x.webp",
+            "gamePanel/newPanel/assets/fullscreenIcon_normal-aQUEJw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/homepage.png",
+            "homepage.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/homepage-sq2ViA.png",
+            "gamePanel/newPanel/assets/homepage-sLP13A@0.5x.webp",
+            "gamePanel/newPanel/assets/homepage-4i_DyQ@0.5x.png",
+            "gamePanel/newPanel/assets/homepage-360JIw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/homepage_down.png",
+            "homepage_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/homepage_down-zijVZQ@0.5x.png",
+            "gamePanel/newPanel/assets/homepage_down-xhWBcw@0.5x.webp",
+            "gamePanel/newPanel/assets/homepage_down-uUywHg.webp",
+            "gamePanel/newPanel/assets/homepage_down-FxSSmg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/homepage_hover.png",
+            "homepage_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/homepage_hover-YO_d@0.5x.webp",
+            "gamePanel/newPanel/assets/homepage_hover-kLnVDw@0.5x.png",
+            "gamePanel/newPanel/assets/homepage_hover-HUluDw.webp",
+            "gamePanel/newPanel/assets/homepage_hover-3bErmA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/homepage_normal.png",
+            "homepage_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/homepage_normal-sq2ViA.png",
+            "gamePanel/newPanel/assets/homepage_normal-sLP13A@0.5x.webp",
+            "gamePanel/newPanel/assets/homepage_normal-4i_DyQ@0.5x.png",
+            "gamePanel/newPanel/assets/homepage_normal-360JIw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/icon_bg_disabled.png",
+            "icon_bg_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/icon_bg_disabled-YUVjFQ.png",
+            "gamePanel/newPanel/assets/icon_bg_disabled-oXNB3Q@0.5x.png",
+            "gamePanel/newPanel/assets/icon_bg_disabled-GTj4Jw@0.5x.webp",
+            "gamePanel/newPanel/assets/icon_bg_disabled-GGRhSg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/icon_bg_hover.png",
+            "icon_bg_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/icon_bg_hover-YUVjFQ.png",
+            "gamePanel/newPanel/assets/icon_bg_hover-oXNB3Q@0.5x.png",
+            "gamePanel/newPanel/assets/icon_bg_hover-GTj4Jw@0.5x.webp",
+            "gamePanel/newPanel/assets/icon_bg_hover-GGRhSg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/icon_bg_normal.png",
+            "icon_bg_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/icon_bg_normal-YUVjFQ.png",
+            "gamePanel/newPanel/assets/icon_bg_normal-oXNB3Q@0.5x.png",
+            "gamePanel/newPanel/assets/icon_bg_normal-GTj4Jw@0.5x.webp",
+            "gamePanel/newPanel/assets/icon_bg_normal-GGRhSg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/intro-logo.png",
+            "intro-logo.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/intro-logo-pUnJGg@0.5x.webp",
+            "gamePanel/newPanel/assets/intro-logo-Ln6pig@0.5x.png",
+            "gamePanel/newPanel/assets/intro-logo-GGunVg.webp",
+            "gamePanel/newPanel/assets/intro-logo-Eaw5Vw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/lightBalance_bg.png",
+            "lightBalance_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/lightBalance_bg-ZcImqg@0.5x.png",
+            "gamePanel/newPanel/assets/lightBalance_bg-SY_iKQ.png",
+            "gamePanel/newPanel/assets/lightBalance_bg-PnuMMw@0.5x.webp",
+            "gamePanel/newPanel/assets/lightBalance_bg-kLPjhw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/lightIcon_bg.png",
+            "lightIcon_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/lightIcon_bg-U5qZXg.webp",
+            "gamePanel/newPanel/assets/lightIcon_bg-tx-f3Q.png",
+            "gamePanel/newPanel/assets/lightIcon_bg-oFhr6g@0.5x.webp",
+            "gamePanel/newPanel/assets/lightIcon_bg-6GngKg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon.png",
+            "menuIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menuIcon-p2BUIg.png",
+            "gamePanel/newPanel/assets/menuIcon-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon1.png",
+            "menuIcon1.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon1-Suazvw@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon1-lS8x9w@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon1-k90_3g.webp",
+            "gamePanel/newPanel/assets/menuIcon1-1Pn-Cg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon1_disabled.png",
+            "menuIcon1_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon1_disabled-Suazvw@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon1_disabled-lS8x9w@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon1_disabled-k90_3g.webp",
+            "gamePanel/newPanel/assets/menuIcon1_disabled-1Pn-Cg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon1_down.png",
+            "menuIcon1_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon1_down-n7cbjg.webp",
+            "gamePanel/newPanel/assets/menuIcon1_down-N-hk0Q@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon1_down-mbE_fA.png",
+            "gamePanel/newPanel/assets/menuIcon1_down-3a_Z4w@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon1_hover.png",
+            "menuIcon1_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon1_hover-yogUNQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon1_hover-YFvpag.webp",
+            "gamePanel/newPanel/assets/menuIcon1_hover-560EFA@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon1_hover-0Uhu0A.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon1_normal.png",
+            "menuIcon1_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon1_normal-Suazvw@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon1_normal-lS8x9w@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon1_normal-k90_3g.webp",
+            "gamePanel/newPanel/assets/menuIcon1_normal-1Pn-Cg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon_disabled.png",
+            "menuIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon_disabled-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon_disabled-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menuIcon_disabled-p2BUIg.png",
+            "gamePanel/newPanel/assets/menuIcon_disabled-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon_down.png",
+            "menuIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon_down-meh-MA@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon_down-KMlHtQ.png",
+            "gamePanel/newPanel/assets/menuIcon_down-iqfVXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menuIcon_down-dlIgmA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon_hover.png",
+            "menuIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon_hover-RWXuPw.png",
+            "gamePanel/newPanel/assets/menuIcon_hover-KmJx-A@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon_hover-ja_tqw.webp",
+            "gamePanel/newPanel/assets/menuIcon_hover-3P3F_Q@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menuIcon_normal.png",
+            "menuIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menuIcon_normal-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menuIcon_normal-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menuIcon_normal-p2BUIg.png",
+            "gamePanel/newPanel/assets/menuIcon_normal-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autospin.png",
+            "menu_autospin.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autospin-QM_KDg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autospin-mr_Gow.png",
+            "gamePanel/newPanel/assets/menu_autospin-iu2aTw.webp",
+            "gamePanel/newPanel/assets/menu_autospin-clTErg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autospin_disabled.png",
+            "menu_autospin_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autospin_disabled-Svb_tg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autospin_disabled-JR90WA.png",
+            "gamePanel/newPanel/assets/menu_autospin_disabled-IJq1xA.webp",
+            "gamePanel/newPanel/assets/menu_autospin_disabled-0yc35Q@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autospin_down.png",
+            "menu_autospin_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autospin_down-M4SmLA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_autospin_down-fOmADA.webp",
+            "gamePanel/newPanel/assets/menu_autospin_down-bZGf9A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autospin_down-2tk12g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autospin_hover.png",
+            "menu_autospin_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autospin_hover-qMpuOQ@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autospin_hover-PNRtYA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_autospin_hover-nV0gdg.png",
+            "gamePanel/newPanel/assets/menu_autospin_hover-1bqgmA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autospin_normal.png",
+            "menu_autospin_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autospin_normal-QM_KDg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autospin_normal-mr_Gow.png",
+            "gamePanel/newPanel/assets/menu_autospin_normal-iu2aTw.webp",
+            "gamePanel/newPanel/assets/menu_autospin_normal-clTErg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autostop.png",
+            "menu_autostop.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autostop-ZxbYaw.webp",
+            "gamePanel/newPanel/assets/menu_autostop-m_Yu6A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autostop-dFuBxA.png",
+            "gamePanel/newPanel/assets/menu_autostop-cjb41w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autostop_disabled.png",
+            "menu_autostop_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autostop_disabled-ZxbYaw.webp",
+            "gamePanel/newPanel/assets/menu_autostop_disabled-m_Yu6A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autostop_disabled-dFuBxA.png",
+            "gamePanel/newPanel/assets/menu_autostop_disabled-cjb41w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autostop_down.png",
+            "menu_autostop_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autostop_down-ZxbYaw.webp",
+            "gamePanel/newPanel/assets/menu_autostop_down-m_Yu6A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autostop_down-dFuBxA.png",
+            "gamePanel/newPanel/assets/menu_autostop_down-cjb41w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autostop_hover.png",
+            "menu_autostop_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autostop_hover-ZxbYaw.webp",
+            "gamePanel/newPanel/assets/menu_autostop_hover-m_Yu6A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autostop_hover-dFuBxA.png",
+            "gamePanel/newPanel/assets/menu_autostop_hover-cjb41w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_autostop_normal.png",
+            "menu_autostop_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_autostop_normal-ZxbYaw.webp",
+            "gamePanel/newPanel/assets/menu_autostop_normal-m_Yu6A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_autostop_normal-dFuBxA.png",
+            "gamePanel/newPanel/assets/menu_autostop_normal-cjb41w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_maxBet.png",
+            "menu_maxBet.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_maxBet-znzumA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_maxBet-Z42bRg.png",
+            "gamePanel/newPanel/assets/menu_maxBet-ls_XcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_maxBet-eH8gVQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_maxBet_disabled.png",
+            "menu_maxBet_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_maxBet_disabled-znzumA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_maxBet_disabled-Z42bRg.png",
+            "gamePanel/newPanel/assets/menu_maxBet_disabled-ls_XcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_maxBet_disabled-eH8gVQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_maxBet_down.png",
+            "menu_maxBet_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_maxBet_down-znzumA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_maxBet_down-Z42bRg.png",
+            "gamePanel/newPanel/assets/menu_maxBet_down-ls_XcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_maxBet_down-eH8gVQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_maxBet_hover.png",
+            "menu_maxBet_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_maxBet_hover-znzumA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_maxBet_hover-Z42bRg.png",
+            "gamePanel/newPanel/assets/menu_maxBet_hover-ls_XcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_maxBet_hover-eH8gVQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_maxBet_normal.png",
+            "menu_maxBet_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_maxBet_normal-znzumA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_maxBet_normal-Z42bRg.png",
+            "gamePanel/newPanel/assets/menu_maxBet_normal-ls_XcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_maxBet_normal-eH8gVQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpin.png",
+            "menu_quickSpin.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpin-WNACLw@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpin-VkoVLA.png",
+            "gamePanel/newPanel/assets/menu_quickSpin-fdEi0Q@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpin-6xkY7Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_disabled.png",
+            "menu_quickSpinOff_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_disabled-wT00qg.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_disabled-LsB3Yg.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_disabled-HZEvKw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_disabled-8J8YGQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_down.png",
+            "menu_quickSpinOff_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_down-WNACLw@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_down-VkoVLA.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_down-fdEi0Q@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_down-6xkY7Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover.png",
+            "menu_quickSpinOff_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover-EoiJ@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover-EeCXmQ.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover-7FaWXA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover-__LsPQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover1.png",
+            "menu_quickSpinOff_hover1.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover1-WAYilg.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover1-Sz6MPw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover1-SXgPzA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_hover1-m7BcyA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_normal.png",
+            "menu_quickSpinOff_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOff_normal-EoiJ@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_normal-EeCXmQ.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_normal-7FaWXA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOff_normal-__LsPQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_disabled.png",
+            "menu_quickSpinOn_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_disabled-wT00qg.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_disabled-LsB3Yg.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_disabled-HZEvKw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_disabled-8J8YGQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_down.png",
+            "menu_quickSpinOn_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_down-EoiJ@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_down-EeCXmQ.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_down-7FaWXA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_down-__LsPQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover.png",
+            "menu_quickSpinOn_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover-WNACLw@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover-VkoVLA.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover-fdEi0Q@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover-6xkY7Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover1.png",
+            "menu_quickSpinOn_hover1.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover1-WAYilg.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover1-Sz6MPw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover1-SXgPzA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_hover1-m7BcyA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_normal.png",
+            "menu_quickSpinOn_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinOn_normal-WNACLw@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_normal-VkoVLA.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_normal-fdEi0Q@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinOn_normal-6xkY7Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop.png",
+            "menu_quickSpinStop.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop-Y7meHQ.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop-HGD6qA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinStop-hd8BEg@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop-Es7WWw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_disabled.png",
+            "menu_quickSpinStop_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_disabled-Y7meHQ.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_disabled-HGD6qA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_disabled-hd8BEg@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_disabled-Es7WWw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_down.png",
+            "menu_quickSpinStop_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_down-Y7meHQ.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_down-HGD6qA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_down-hd8BEg@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_down-Es7WWw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_hover.png",
+            "menu_quickSpinStop_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_hover-Y7meHQ.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_hover-HGD6qA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_hover-hd8BEg@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_hover-Es7WWw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_normal.png",
+            "menu_quickSpinStop_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpinStop_normal-Y7meHQ.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_normal-HGD6qA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_normal-hd8BEg@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpinStop_normal-Es7WWw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpin_disabled.png",
+            "menu_quickSpin_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpin_disabled-wT00qg.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_disabled-LsB3Yg.webp",
+            "gamePanel/newPanel/assets/menu_quickSpin_disabled-HZEvKw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_disabled-8J8YGQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpin_down.png",
+            "menu_quickSpin_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpin_down-EoiJ@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_down-EeCXmQ.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_down-7FaWXA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpin_down-__LsPQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpin_hover.png",
+            "menu_quickSpin_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpin_hover-WAYilg.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_hover-Sz6MPw@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_hover-SXgPzA@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpin_hover-m7BcyA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_quickSpin_normal.png",
+            "menu_quickSpin_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_quickSpin_normal-WNACLw@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_quickSpin_normal-VkoVLA.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_normal-fdEi0Q@0.5x.png",
+            "gamePanel/newPanel/assets/menu_quickSpin_normal-6xkY7Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_settings.png",
+            "menu_settings.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_settings-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_settings-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menu_settings-p2BUIg.png",
+            "gamePanel/newPanel/assets/menu_settings-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_settings_disabled.png",
+            "menu_settings_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_settings_disabled-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_settings_disabled-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menu_settings_disabled-p2BUIg.png",
+            "gamePanel/newPanel/assets/menu_settings_disabled-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_settings_down.png",
+            "menu_settings_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_settings_down-meh-MA@0.5x.png",
+            "gamePanel/newPanel/assets/menu_settings_down-KMlHtQ.png",
+            "gamePanel/newPanel/assets/menu_settings_down-iqfVXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/menu_settings_down-dlIgmA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_settings_hover.png",
+            "menu_settings_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_settings_hover-RWXuPw.png",
+            "gamePanel/newPanel/assets/menu_settings_hover-KmJx-A@0.5x.png",
+            "gamePanel/newPanel/assets/menu_settings_hover-ja_tqw.webp",
+            "gamePanel/newPanel/assets/menu_settings_hover-3P3F_Q@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/menu_settings_normal.png",
+            "menu_settings_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/menu_settings_normal-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/menu_settings_normal-Rfiixw.webp",
+            "gamePanel/newPanel/assets/menu_settings_normal-p2BUIg.png",
+            "gamePanel/newPanel/assets/menu_settings_normal-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/minusIcon_disabled.png",
+            "minusIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/minusIcon_disabled-t_Cd1w.webp",
+            "gamePanel/newPanel/assets/minusIcon_disabled-M4B-5Q.png",
+            "gamePanel/newPanel/assets/minusIcon_disabled-kwVoqg@0.5x.png",
+            "gamePanel/newPanel/assets/minusIcon_disabled-ehcoCg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/minusIcon_down.png",
+            "minusIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/minusIcon_down-s9SOGg.webp",
+            "gamePanel/newPanel/assets/minusIcon_down-q1CXFA.png",
+            "gamePanel/newPanel/assets/minusIcon_down-9bNi3w@0.5x.webp",
+            "gamePanel/newPanel/assets/minusIcon_down-2z57Cw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/minusIcon_hover.png",
+            "minusIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/minusIcon_hover-WDFvxA.webp",
+            "gamePanel/newPanel/assets/minusIcon_hover-gdqcrw@0.5x.png",
+            "gamePanel/newPanel/assets/minusIcon_hover-fceH6g.png",
+            "gamePanel/newPanel/assets/minusIcon_hover-8iUeAA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/minusIcon_normal.png",
+            "minusIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/minusIcon_normal-OdtzYQ.webp",
+            "gamePanel/newPanel/assets/minusIcon_normal-Nxr1yg@0.5x.png",
+            "gamePanel/newPanel/assets/minusIcon_normal-JXiBIg.png",
+            "gamePanel/newPanel/assets/minusIcon_normal-7Kptag@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/paytableIcon.png",
+            "paytableIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/paytableIcon-uqQXkg@0.5x.png",
+            "gamePanel/newPanel/assets/paytableIcon-u8sY3Q@0.5x.webp",
+            "gamePanel/newPanel/assets/paytableIcon-9xLenA.webp",
+            "gamePanel/newPanel/assets/paytableIcon-_BjhLg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plusIcon_disabled.png",
+            "plusIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plusIcon_disabled-zpKwUA.png",
+            "gamePanel/newPanel/assets/plusIcon_disabled-NM64dA.webp",
+            "gamePanel/newPanel/assets/plusIcon_disabled-lIQDGQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plusIcon_disabled-2bgbKQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plusIcon_down.png",
+            "plusIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plusIcon_down-nozQGg.png",
+            "gamePanel/newPanel/assets/plusIcon_down-ca48Dw.webp",
+            "gamePanel/newPanel/assets/plusIcon_down-7i9YNg@0.5x.png",
+            "gamePanel/newPanel/assets/plusIcon_down-70Sc_A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plusIcon_hover.png",
+            "plusIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plusIcon_hover-Yv8JLw.webp",
+            "gamePanel/newPanel/assets/plusIcon_hover-TmXK2w.png",
+            "gamePanel/newPanel/assets/plusIcon_hover-K-sIPQ@0.5x.png",
+            "gamePanel/newPanel/assets/plusIcon_hover-deUA7Q@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plusIcon_normal.png",
+            "plusIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plusIcon_normal-wxFx9A@0.5x.webp",
+            "gamePanel/newPanel/assets/plusIcon_normal-ht2ueA@0.5x.png",
+            "gamePanel/newPanel/assets/plusIcon_normal-14Z3Kg.webp",
+            "gamePanel/newPanel/assets/plusIcon_normal--apjCQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plustBtnMenu.png",
+            "plustBtnMenu.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plustBtnMenu-yD68iw@0.5x.png",
+            "gamePanel/newPanel/assets/plustBtnMenu-PzaWSA.png",
+            "gamePanel/newPanel/assets/plustBtnMenu-P5fxSg.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu-kalw7A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plustBtnMenu_disabled.png",
+            "plustBtnMenu_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plustBtnMenu_disabled-vZTO@0.5x.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu_disabled-toj85g.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu_disabled-kEo_ug@0.5x.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_disabled-dpolJg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plustBtnMenu_Down.png",
+            "plustBtnMenu_Down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plustBtnMenu_Down-zrUx@0.5x.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_Down-zoABHg@0.5x.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu_Down-ZGbDJg.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_Down-mtHasA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plustBtnMenu_hover.png",
+            "plustBtnMenu_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plustBtnMenu_hover-RefrvA.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_hover-LdmLBQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu_hover-aDLA5g@0.5x.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_hover-1NuLCA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plustBtnMenu_normal.png",
+            "plustBtnMenu_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plustBtnMenu_normal-yD68iw@0.5x.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_normal-PzaWSA.png",
+            "gamePanel/newPanel/assets/plustBtnMenu_normal-P5fxSg.webp",
+            "gamePanel/newPanel/assets/plustBtnMenu_normal-kalw7A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg.png",
+            "plus_close_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg-x3Ox9Q@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_close_bg-Qy1-AA@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg-qIEKfg.webp",
+            "gamePanel/newPanel/assets/plus_close_bg-hwkJ0g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg2.png",
+            "plus_close_bg2.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg2-XDNf6Q@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg2-S6aP5g.png",
+            "gamePanel/newPanel/assets/plus_close_bg2-1QQQ.webp",
+            "gamePanel/newPanel/assets/plus_close_bg2--Q7Lbg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg2_disabled.png",
+            "plus_close_bg2_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg2_disabled-XDNf6Q@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_disabled-S6aP5g.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_disabled-1QQQ.webp",
+            "gamePanel/newPanel/assets/plus_close_bg2_disabled--Q7Lbg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg2_down.png",
+            "plus_close_bg2_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg2_down-XDNf6Q@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_down-S6aP5g.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_down-1QQQ.webp",
+            "gamePanel/newPanel/assets/plus_close_bg2_down--Q7Lbg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg2_hover.png",
+            "plus_close_bg2_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg2_hover-XDNf6Q@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_hover-S6aP5g.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_hover-1QQQ.webp",
+            "gamePanel/newPanel/assets/plus_close_bg2_hover--Q7Lbg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg2_normal.png",
+            "plus_close_bg2_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg2_normal-XDNf6Q@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_normal-S6aP5g.png",
+            "gamePanel/newPanel/assets/plus_close_bg2_normal-1QQQ.webp",
+            "gamePanel/newPanel/assets/plus_close_bg2_normal--Q7Lbg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg_disabled.png",
+            "plus_close_bg_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg_disabled-x3Ox9Q@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_disabled-Qy1-AA@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg_disabled-qIEKfg.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_disabled-hwkJ0g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg_down.png",
+            "plus_close_bg_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg_down-x3Ox9Q@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_down-Qy1-AA@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg_down-qIEKfg.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_down-hwkJ0g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg_hover.png",
+            "plus_close_bg_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg_hover-x3Ox9Q@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_hover-Qy1-AA@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg_hover-qIEKfg.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_hover-hwkJ0g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_close_bg_normal.png",
+            "plus_close_bg_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_close_bg_normal-x3Ox9Q@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_normal-Qy1-AA@0.5x.png",
+            "gamePanel/newPanel/assets/plus_close_bg_normal-qIEKfg.webp",
+            "gamePanel/newPanel/assets/plus_close_bg_normal-hwkJ0g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg.png",
+            "plus_menu_option_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg-R5qHgg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_menu_option_bg-PKReXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg-aMpUrQ.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg-a6L2kw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_disabled.png",
+            "plus_menu_option_bg_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_disabled-R5qHgg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_disabled-PKReXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_disabled-aMpUrQ.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_disabled-a6L2kw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_hover.png",
+            "plus_menu_option_bg_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_hover-R5qHgg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_hover-PKReXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_hover-aMpUrQ.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_hover-a6L2kw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_normal.png",
+            "plus_menu_option_bg_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_menu_option_bg_normal-R5qHgg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_normal-PKReXQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_normal-aMpUrQ.webp",
+            "gamePanel/newPanel/assets/plus_menu_option_bg_normal-a6L2kw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_open_bg.png",
+            "plus_open_bg.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_open_bg-TWKbmg.png",
+            "gamePanel/newPanel/assets/plus_open_bg-tRGmKg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_open_bg-pe_ehQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_open_bg-68lgYg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_open_bg_disabled.png",
+            "plus_open_bg_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_open_bg_disabled-TWKbmg.png",
+            "gamePanel/newPanel/assets/plus_open_bg_disabled-tRGmKg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_open_bg_disabled-pe_ehQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_open_bg_disabled-68lgYg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_open_bg_down.png",
+            "plus_open_bg_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_open_bg_down-TWKbmg.png",
+            "gamePanel/newPanel/assets/plus_open_bg_down-tRGmKg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_open_bg_down-pe_ehQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_open_bg_down-68lgYg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_open_bg_hover.png",
+            "plus_open_bg_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_open_bg_hover-TWKbmg.png",
+            "gamePanel/newPanel/assets/plus_open_bg_hover-tRGmKg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_open_bg_hover-pe_ehQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_open_bg_hover-68lgYg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/plus_open_bg_normal.png",
+            "plus_open_bg_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/plus_open_bg_normal-TWKbmg.png",
+            "gamePanel/newPanel/assets/plus_open_bg_normal-tRGmKg@0.5x.png",
+            "gamePanel/newPanel/assets/plus_open_bg_normal-pe_ehQ@0.5x.webp",
+            "gamePanel/newPanel/assets/plus_open_bg_normal-68lgYg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/popup_button.png",
+            "popup_button.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/popup_button-9qdf8A@0.5x.webp",
+            "gamePanel/newPanel/assets/popup_button-6tHnhQ.png",
+            "gamePanel/newPanel/assets/popup_button-5XHEZg@0.5x.png",
+            "gamePanel/newPanel/assets/popup_button-1DrZEA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/popup_button_disabled.png",
+            "popup_button_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/popup_button_disabled-OZRWpg.webp",
+            "gamePanel/newPanel/assets/popup_button_disabled-LVn-fA.png",
+            "gamePanel/newPanel/assets/popup_button_disabled-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/popup_button_disabled-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/popup_button_down.png",
+            "popup_button_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/popup_button_down-OZRWpg.webp",
+            "gamePanel/newPanel/assets/popup_button_down-LVn-fA.png",
+            "gamePanel/newPanel/assets/popup_button_down-ehVHdg@0.5x.png",
+            "gamePanel/newPanel/assets/popup_button_down-anWGvg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/popup_button_hover.png",
+            "popup_button_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/popup_button_hover-PXCYgg.png",
+            "gamePanel/newPanel/assets/popup_button_hover-GFraJg@0.5x.webp",
+            "gamePanel/newPanel/assets/popup_button_hover-dZb1Pw.webp",
+            "gamePanel/newPanel/assets/popup_button_hover-cgPMSA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/popup_button_normal.png",
+            "popup_button_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/popup_button_normal-QtXiNA@0.5x.png",
+            "gamePanel/newPanel/assets/popup_button_normal-MnEPyw@0.5x.webp",
+            "gamePanel/newPanel/assets/popup_button_normal-7tbbGA.webp",
+            "gamePanel/newPanel/assets/popup_button_normal-4w8AEA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/quickSpinIcon.png",
+            "quickSpinIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/quickSpinIcon-SCBxig@0.5x.png",
+            "gamePanel/newPanel/assets/quickSpinIcon-Nqwliw@0.5x.webp",
+            "gamePanel/newPanel/assets/quickSpinIcon-LOF8mw.png",
+            "gamePanel/newPanel/assets/quickSpinIcon-7kQnUw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/rect_angel_box.png",
+            "rect_angel_box.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/rect_angel_box-xGkMfQ@0.5x.png",
+            "gamePanel/newPanel/assets/rect_angel_box-XGggqA.webp",
+            "gamePanel/newPanel/assets/rect_angel_box-u5_jGg@0.5x.webp",
+            "gamePanel/newPanel/assets/rect_angel_box-iKoVMQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/resumegameBtn.png",
+            "resumegameBtn.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/resumegameBtn-zY2VuA.png",
+            "gamePanel/newPanel/assets/resumegameBtn-YRK2Rg@0.5x.webp",
+            "gamePanel/newPanel/assets/resumegameBtn-MWjyOw.webp",
+            "gamePanel/newPanel/assets/resumegameBtn-i-Ta-w@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/rulesIcon.png",
+            "rulesIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/rulesIcon-W7hfwg@0.5x.webp",
+            "gamePanel/newPanel/assets/rulesIcon-V5roaQ@0.5x.png",
+            "gamePanel/newPanel/assets/rulesIcon-RBC47w.png",
+            "gamePanel/newPanel/assets/rulesIcon-EbNOtg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/settingsIcon.png",
+            "settingsIcon.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/settingsIcon-TeoLvg@0.5x.png",
+            "gamePanel/newPanel/assets/settingsIcon-Rfiixw.webp",
+            "gamePanel/newPanel/assets/settingsIcon-p2BUIg.png",
+            "gamePanel/newPanel/assets/settingsIcon-HmeT0w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOffIcon_disabled.png",
+            "soundOffIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOffIcon_disabled-XZSJqA@0.5x.png",
+            "gamePanel/newPanel/assets/soundOffIcon_disabled-LhBnxw.png",
+            "gamePanel/newPanel/assets/soundOffIcon_disabled-elUTrw.webp",
+            "gamePanel/newPanel/assets/soundOffIcon_disabled-4EVUlA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOffIcon_down.png",
+            "soundOffIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOffIcon_down-zNLU4A@0.5x.png",
+            "gamePanel/newPanel/assets/soundOffIcon_down-nuLT6Q@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOffIcon_down-eQqL.webp",
+            "gamePanel/newPanel/assets/soundOffIcon_down-_4gXJQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOffIcon_hover.png",
+            "soundOffIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOffIcon_hover-XZSJqA@0.5x.png",
+            "gamePanel/newPanel/assets/soundOffIcon_hover-LhBnxw.png",
+            "gamePanel/newPanel/assets/soundOffIcon_hover-elUTrw.webp",
+            "gamePanel/newPanel/assets/soundOffIcon_hover-4EVUlA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOffIcon_normal.png",
+            "soundOffIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOffIcon_normal-zJULHw@0.5x.png",
+            "gamePanel/newPanel/assets/soundOffIcon_normal-ttx0tg@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOffIcon_normal-ifY41g.png",
+            "gamePanel/newPanel/assets/soundOffIcon_normal-f4gagA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOnIcon_disabled.png",
+            "soundOnIcon_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOnIcon_disabled-VZhzpQ.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_disabled-P5_lqw@0.5x.png",
+            "gamePanel/newPanel/assets/soundOnIcon_disabled-nsAKcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_disabled-GbYA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOnIcon_down.png",
+            "soundOnIcon_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOnIcon_down-X0-QgQ.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_down-NPSKZQ@0.5x.png",
+            "gamePanel/newPanel/assets/soundOnIcon_down-ieNpfw@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_down-_zYNXQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOnIcon_hover.png",
+            "soundOnIcon_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOnIcon_hover-VZhzpQ.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_hover-P5_lqw@0.5x.png",
+            "gamePanel/newPanel/assets/soundOnIcon_hover-nsAKcQ@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_hover-GbYA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/soundOnIcon_normal.png",
+            "soundOnIcon_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/soundOnIcon_normal-sVH0hg@0.5x.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_normal-Hv0r8w@0.5x.png",
+            "gamePanel/newPanel/assets/soundOnIcon_normal-4kvQbA.webp",
+            "gamePanel/newPanel/assets/soundOnIcon_normal-05dD5A.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/spineBtn_main_disabled.png",
+            "spineBtn_main_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/spineBtn_main_disabled-XRcFlw@0.5x.webp",
+            "gamePanel/newPanel/assets/spineBtn_main_disabled-x9F7Og.png",
+            "gamePanel/newPanel/assets/spineBtn_main_disabled-oW3OZA@0.5x.png",
+            "gamePanel/newPanel/assets/spineBtn_main_disabled-hwL-fg.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/spineBtn_main_down.png",
+            "spineBtn_main_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/spineBtn_main_down-Vsm4Sg@0.5x.webp",
+            "gamePanel/newPanel/assets/spineBtn_main_down-hn_Z.png",
+            "gamePanel/newPanel/assets/spineBtn_main_down-8z4Usw.webp",
+            "gamePanel/newPanel/assets/spineBtn_main_down-7KJVgA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/spineBtn_main_hover.png",
+            "spineBtn_main_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/spineBtn_main_hover-fF2m@0.5x.png",
+            "gamePanel/newPanel/assets/spineBtn_main_hover-bR12vg@0.5x.webp",
+            "gamePanel/newPanel/assets/spineBtn_main_hover-9akB9w.png",
+            "gamePanel/newPanel/assets/spineBtn_main_hover-2zp_zA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/spineBtn_main_normal.png",
+            "spineBtn_main_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/spineBtn_main_normal-vvOwHw.png",
+            "gamePanel/newPanel/assets/spineBtn_main_normal-mLBdlg@0.5x.png",
+            "gamePanel/newPanel/assets/spineBtn_main_normal-bBWw1A@0.5x.webp",
+            "gamePanel/newPanel/assets/spineBtn_main_normal--ItkTw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/stop_disabled.png",
+            "stop_disabled.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/stop_disabled-ZT9POQ.png",
+            "gamePanel/newPanel/assets/stop_disabled-MnYEAQ.webp",
+            "gamePanel/newPanel/assets/stop_disabled-eSTj0Q@0.5x.png",
+            "gamePanel/newPanel/assets/stop_disabled-285UiQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/stop_down.png",
+            "stop_down.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/stop_down-q5GoCQ.png",
+            "gamePanel/newPanel/assets/stop_down-GijOcg@0.5x.png",
+            "gamePanel/newPanel/assets/stop_down-a0GVHA.webp",
+            "gamePanel/newPanel/assets/stop_down-9ZrtrA@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/stop_hover.png",
+            "stop_hover.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/stop_hover-zOFwsw.png",
+            "gamePanel/newPanel/assets/stop_hover-lcTbNA@0.5x.webp",
+            "gamePanel/newPanel/assets/stop_hover-hC55jA@0.5x.png",
+            "gamePanel/newPanel/assets/stop_hover-7w8OHQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/stop_normal.png",
+            "stop_normal.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/stop_normal-UZ6TCA.png",
+            "gamePanel/newPanel/assets/stop_normal-tJfgLQ@0.5x.png",
+            "gamePanel/newPanel/assets/stop_normal-rllBSQ@0.5x.webp",
+            "gamePanel/newPanel/assets/stop_normal-30N4xA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/assets/swipe_icon_mobile.png",
+            "swipe_icon_mobile.png"
+          ],
+          "src": [
+            "gamePanel/newPanel/assets/swipe_icon_mobile-ZTAKHg.webp",
+            "gamePanel/newPanel/assets/swipe_icon_mobile-y8Gzjg@0.5x.webp",
+            "gamePanel/newPanel/assets/swipe_icon_mobile-VCeE@0.5x.png",
+            "gamePanel/newPanel/assets/swipe_icon_mobile-0fq06A.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "gamePanel/newPanel/newPanel.tps",
+            "newPanel.tps"
+          ],
+          "src": [
+            "gamePanel/newPanel/newPanel-PTb_sQ.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "introScreen",
+      "assets": [
+        {
+          "alias": [
+            "introScreen/assets/btn_arrow1.png",
+            "btn_arrow1.png"
+          ],
+          "src": [
+            "introScreen/assets/btn_arrow1-UHgAqg.webp",
+            "introScreen/assets/btn_arrow1-j9Z37w@0.5x.webp",
+            "introScreen/assets/btn_arrow1-HXQO6A.png",
+            "introScreen/assets/btn_arrow1-FvjbFQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/btn_arrow2.png",
+            "btn_arrow2.png"
+          ],
+          "src": [
+            "introScreen/assets/btn_arrow2-yZa5wA@0.5x.png",
+            "introScreen/assets/btn_arrow2-V6bxnA.png",
+            "introScreen/assets/btn_arrow2-pD8A9w@0.5x.webp",
+            "introScreen/assets/btn_arrow2-n7UnLw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/frame1.png",
+            "frame1.png"
+          ],
+          "src": [
+            "introScreen/assets/frame1-XGpyBQ@0.5x.png",
+            "introScreen/assets/frame1-pQ3MlA@0.5x.webp",
+            "introScreen/assets/frame1-Op76Vw.webp",
+            "introScreen/assets/frame1-gtLRfQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/frame1_p.png",
+            "frame1_p.png"
+          ],
+          "src": [
+            "introScreen/assets/frame1_p-XTuCxg@0.5x.webp",
+            "introScreen/assets/frame1_p-toAZ0Q@0.5x.png",
+            "introScreen/assets/frame1_p-PPS5Ow.webp",
+            "introScreen/assets/frame1_p-iU1LzQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/frame2.png",
+            "frame2.png"
+          ],
+          "src": [
+            "introScreen/assets/frame2-wvrmOw.png",
+            "introScreen/assets/frame2-u_m22w@0.5x.webp",
+            "introScreen/assets/frame2-tl5S.webp",
+            "introScreen/assets/frame2-ajeWiw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/frame2_p.png",
+            "frame2_p.png"
+          ],
+          "src": [
+            "introScreen/assets/frame2_p-ZuWfBg@0.5x.webp",
+            "introScreen/assets/frame2_p-ZGJQ6w.png",
+            "introScreen/assets/frame2_p-Q7cFTA@0.5x.png",
+            "introScreen/assets/frame2_p-bQlGzQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/loadingTxt.png",
+            "loadingTxt.png"
+          ],
+          "src": [
+            "introScreen/assets/loadingTxt-s1i9iA@0.5x.png",
+            "introScreen/assets/loadingTxt-jbPOlA.webp",
+            "introScreen/assets/loadingTxt-hkSWJA@0.5x.webp",
+            "introScreen/assets/loadingTxt-4UcuIQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/logo.png",
+            "logo.png"
+          ],
+          "src": [
+            "introScreen/assets/logo-t0PSIQ.webp",
+            "introScreen/assets/logo-PYnL.png",
+            "introScreen/assets/logo-bvSuQQ@0.5x.png",
+            "introScreen/assets/logo-_5Xa-w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/pager_base.png",
+            "pager_base.png"
+          ],
+          "src": [
+            "introScreen/assets/pager_base-TgiT_w.webp",
+            "introScreen/assets/pager_base-oBWK0g@0.5x.webp",
+            "introScreen/assets/pager_base-kRGb_Q.png",
+            "introScreen/assets/pager_base-2b_F8A@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/pager_marker.png",
+            "pager_marker.png"
+          ],
+          "src": [
+            "introScreen/assets/pager_marker-Y895-w@0.5x.png",
+            "introScreen/assets/pager_marker-FoCK_A@0.5x.webp",
+            "introScreen/assets/pager_marker-bG-JfA.png",
+            "introScreen/assets/pager_marker-765g2g.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/prePlayBtn_disabled.png",
+            "prePlayBtn_disabled.png"
+          ],
+          "src": [
+            "introScreen/assets/prePlayBtn_disabled-URFDlw.png",
+            "introScreen/assets/prePlayBtn_disabled-tl8R7A.webp",
+            "introScreen/assets/prePlayBtn_disabled-pEAsDw@0.5x.png",
+            "introScreen/assets/prePlayBtn_disabled-nyXL@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/prePlayBtn_down.png",
+            "prePlayBtn_down.png"
+          ],
+          "src": [
+            "introScreen/assets/prePlayBtn_down-zrtGKA@0.5x.png",
+            "introScreen/assets/prePlayBtn_down-u-yEcQ.png",
+            "introScreen/assets/prePlayBtn_down-ifIO_w.webp",
+            "introScreen/assets/prePlayBtn_down-29enqg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/prePlayBtn_hover.png",
+            "prePlayBtn_hover.png"
+          ],
+          "src": [
+            "introScreen/assets/prePlayBtn_hover-Za2Yxw@0.5x.webp",
+            "introScreen/assets/prePlayBtn_hover-OgjquQ@0.5x.png",
+            "introScreen/assets/prePlayBtn_hover-j7h1Lg.webp",
+            "introScreen/assets/prePlayBtn_hover-erKD_w.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/assets/prePlayBtn_normal.png",
+            "prePlayBtn_normal.png"
+          ],
+          "src": [
+            "introScreen/assets/prePlayBtn_normal-rTjlWA@0.5x.webp",
+            "introScreen/assets/prePlayBtn_normal-63Sq7w.webp",
+            "introScreen/assets/prePlayBtn_normal-2BrNAQ.png",
+            "introScreen/assets/prePlayBtn_normal-1gnnMg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "introScreen/intro.tps",
+            "intro.tps"
+          ],
+          "src": [
+            "introScreen/intro-9iDJzQ.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "reelFrame",
+      "assets": [
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_01.png",
+            "LOCK_01.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_01-TuKghQ@0.5x.webp",
+            "reelFrame/assets/LOCK_01-pIg30w@0.5x.png",
+            "reelFrame/assets/LOCK_01-kv0PfQ.webp",
+            "reelFrame/assets/LOCK_01-F7GTxQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_02.png",
+            "LOCK_02.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_02-wDVCVw.png",
+            "reelFrame/assets/LOCK_02-R5zXcw@0.5x.webp",
+            "reelFrame/assets/LOCK_02-qi4WyQ.webp",
+            "reelFrame/assets/LOCK_02-03Qq-w@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_03.png",
+            "LOCK_03.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_03-Ve1WPQ@0.5x.png",
+            "reelFrame/assets/LOCK_03-VAv_Lw@0.5x.webp",
+            "reelFrame/assets/LOCK_03-gV3YYQ.png",
+            "reelFrame/assets/LOCK_03-5U4dlw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_04.png",
+            "LOCK_04.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_04-LI62ew@0.5x.webp",
+            "reelFrame/assets/LOCK_04-IjS-JQ.webp",
+            "reelFrame/assets/LOCK_04-FkdZIg.png",
+            "reelFrame/assets/LOCK_04-EZ4Kbw@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_05.png",
+            "LOCK_05.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_05-V_RhBA@0.5x.webp",
+            "reelFrame/assets/LOCK_05-cr5Zdg@0.5x.png",
+            "reelFrame/assets/LOCK_05-8--q.webp",
+            "reelFrame/assets/LOCK_05-4kQB.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/LOCK_06.png",
+            "LOCK_06.png"
+          ],
+          "src": [
+            "reelFrame/assets/LOCK_06-vaDiHw@0.5x.png",
+            "reelFrame/assets/LOCK_06-EyEI1w.webp",
+            "reelFrame/assets/LOCK_06-crioSQ@0.5x.webp",
+            "reelFrame/assets/LOCK_06-_hdzrQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelframe.png",
+            "reelframe.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelframe-mu4qRg@0.5x.webp",
+            "reelFrame/assets/reelframe-jwRRkg.png",
+            "reelFrame/assets/reelframe-Hk385A@0.5x.png",
+            "reelFrame/assets/reelframe-4rVfSA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelFrameBG.png",
+            "reelFrameBG.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelFrameBG-U-0Tug.png",
+            "reelFrame/assets/reelFrameBG-lQdRFg.webp",
+            "reelFrame/assets/reelFrameBG-KXgByw@0.5x.png",
+            "reelFrame/assets/reelFrameBG-GT2OYQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelframe_old.png",
+            "reelframe_old.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelframe_old-z-QsMw.png",
+            "reelFrame/assets/reelframe_old-ra1rCQ@0.5x.png",
+            "reelFrame/assets/reelframe_old-NeuW@0.5x.webp",
+            "reelFrame/assets/reelframe_old-baQAkA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelFrame_respin.png",
+            "reelFrame_respin.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelFrame_respin-TrnSJg.webp",
+            "reelFrame/assets/reelFrame_respin-sxnWxw@0.5x.webp",
+            "reelFrame/assets/reelFrame_respin-qliJHQ@0.5x.png",
+            "reelFrame/assets/reelFrame_respin-FZ3ghw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelFrame_respin_old.png",
+            "reelFrame_respin_old.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelFrame_respin_old-sqaRfQ.png",
+            "reelFrame/assets/reelFrame_respin_old-mPFA8w@0.5x.png",
+            "reelFrame/assets/reelFrame_respin_old-HAPa7g.webp",
+            "reelFrame/assets/reelFrame_respin_old-f6-DpQ@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/reelOuterFrame.png",
+            "reelOuterFrame.png"
+          ],
+          "src": [
+            "reelFrame/assets/reelOuterFrame-qcJZHQ.webp",
+            "reelFrame/assets/reelOuterFrame-H6xnPA@0.5x.webp",
+            "reelFrame/assets/reelOuterFrame-aqDlQQ@0.5x.png",
+            "reelFrame/assets/reelOuterFrame-02477g.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/assets/respinReelFrameBG.png",
+            "respinReelFrameBG.png"
+          ],
+          "src": [
+            "reelFrame/assets/respinReelFrameBG-t7Yc_w@0.5x.webp",
+            "reelFrame/assets/respinReelFrameBG-Rm99uQ.png",
+            "reelFrame/assets/respinReelFrameBG-QRi4yg@0.5x.png",
+            "reelFrame/assets/respinReelFrameBG-9DJ-0Q.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "reelFrame/reelFrame.tps",
+            "reelFrame.tps"
+          ],
+          "src": [
+            "reelFrame/reelFrame--ow5vA.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "symbols",
+      "assets": [
+        {
+          "alias": [
+            "symbols/assets/a.png",
+            "a.png"
+          ],
+          "src": [
+            "symbols/assets/a-S4GTsg.webp",
+            "symbols/assets/a-quiEUA@0.5x.webp",
+            "symbols/assets/a-QjCXZw@0.5x.png",
+            "symbols/assets/a-Kt69wQ.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/a_blur.png",
+            "a_blur.png"
+          ],
+          "src": [
+            "symbols/assets/a_blur-tt07Fw.webp",
+            "symbols/assets/a_blur-lkLc_A@0.5x.webp",
+            "symbols/assets/a_blur-du1KmQ@0.5x.png",
+            "symbols/assets/a_blur-7LvaAA.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/b.png",
+            "b.png"
+          ],
+          "src": [
+            "symbols/assets/b-yQgNrA@0.5x.webp",
+            "symbols/assets/b-W7eH.png",
+            "symbols/assets/b-5Aqd@0.5x.png",
+            "symbols/assets/b-2Zflkw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/blueBg_D.png",
+            "blueBg_D.png"
+          ],
+          "src": [
+            "symbols/assets/blueBg_D-vaPmag.webp",
+            "symbols/assets/blueBg_D-loNCFA.png",
+            "symbols/assets/blueBg_D-I2cAvA@0.5x.png",
+            "symbols/assets/blueBg_D--YcsWw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/b_blur.png",
+            "b_blur.png"
+          ],
+          "src": [
+            "symbols/assets/b_blur-rODtfQ@0.5x.webp",
+            "symbols/assets/b_blur-P8uAEQ.webp",
+            "symbols/assets/b_blur-OADfbQ.png",
+            "symbols/assets/b_blur-al3g@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/c.png",
+            "c.png"
+          ],
+          "src": [
+            "symbols/assets/c-Yu5KAQ@0.5x.png",
+            "symbols/assets/c-t6QhHA.png",
+            "symbols/assets/c-LuoTFA.webp",
+            "symbols/assets/c-_VJBsw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/c_blur.png",
+            "c_blur.png"
+          ],
+          "src": [
+            "symbols/assets/c_blur-QpLEJg.png",
+            "symbols/assets/c_blur-ot2cIg@0.5x.webp",
+            "symbols/assets/c_blur-lgzxDQ.webp",
+            "symbols/assets/c_blur-8Z1mpg@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/d.png",
+            "d.png"
+          ],
+          "src": [
+            "symbols/assets/d-GDjBLw.png",
+            "symbols/assets/d-fpNirg.webp",
+            "symbols/assets/d-EHVfMQ@0.5x.png",
+            "symbols/assets/d-5F0S2A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/d_blur.png",
+            "d_blur.png"
+          ],
+          "src": [
+            "symbols/assets/d_blur-Y_Ly0Q.png",
+            "symbols/assets/d_blur-7jf6xQ.webp",
+            "symbols/assets/d_blur-64xQDg@0.5x.png",
+            "symbols/assets/d_blur-2EqR-w@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/e.png",
+            "e.png"
+          ],
+          "src": [
+            "symbols/assets/e-ux0TuQ@0.5x.png",
+            "symbols/assets/e-IuivPg.webp",
+            "symbols/assets/e-it86vw.png",
+            "symbols/assets/e-bIou1A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/e_blur.png",
+            "e_blur.png"
+          ],
+          "src": [
+            "symbols/assets/e_blur-z0xKuA@0.5x.png",
+            "symbols/assets/e_blur-m98ypQ.png",
+            "symbols/assets/e_blur-ihCWbg.webp",
+            "symbols/assets/e_blur--Twa2A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/f.png",
+            "f.png"
+          ],
+          "src": [
+            "symbols/assets/f-xuODSw@0.5x.webp",
+            "symbols/assets/f-Rh7XfQ.png",
+            "symbols/assets/f-lA4Iyw@0.5x.png",
+            "symbols/assets/f-hBhquw.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/f_blur.png",
+            "f_blur.png"
+          ],
+          "src": [
+            "symbols/assets/f_blur-std0jg@0.5x.png",
+            "symbols/assets/f_blur-Gx_rPg@0.5x.webp",
+            "symbols/assets/f_blur-9lc4jg.png",
+            "symbols/assets/f_blur-3eJX6w.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/g.png",
+            "g.png"
+          ],
+          "src": [
+            "symbols/assets/g-Yqejiw.webp",
+            "symbols/assets/g-I1kCvw@0.5x.webp",
+            "symbols/assets/g-g52FAA.png",
+            "symbols/assets/g-8AUPKA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/g_blur.png",
+            "g_blur.png"
+          ],
+          "src": [
+            "symbols/assets/g_blur-tiVkmQ@0.5x.png",
+            "symbols/assets/g_blur-kH3YkQ.webp",
+            "symbols/assets/g_blur-HCm1mw.png",
+            "symbols/assets/g_blur-23stIg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/h.png",
+            "h.png"
+          ],
+          "src": [
+            "symbols/assets/h-NqM2HA.png",
+            "symbols/assets/h-9Pouag@0.5x.png",
+            "symbols/assets/h-5Mq2Dg@0.5x.webp",
+            "symbols/assets/h--4qFyQ.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/h_blur.png",
+            "h_blur.png"
+          ],
+          "src": [
+            "symbols/assets/h_blur-ZXoF@0.5x.png",
+            "symbols/assets/h_blur-REL30A.webp",
+            "symbols/assets/h_blur-iw7sNw@0.5x.webp",
+            "symbols/assets/h_blur-7eC9Ag.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/i.png",
+            "i.png"
+          ],
+          "src": [
+            "symbols/assets/i-yBLoZg.png",
+            "symbols/assets/i-WkOHmQ.webp",
+            "symbols/assets/i-WBy3iA@0.5x.webp",
+            "symbols/assets/i-ifrLPA@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/i_blur.png",
+            "i_blur.png"
+          ],
+          "src": [
+            "symbols/assets/i_blur-vYRgYw.webp",
+            "symbols/assets/i_blur-vq2BYA@0.5x.webp",
+            "symbols/assets/i_blur-lJfMhg@0.5x.png",
+            "symbols/assets/i_blur-_QQ3xg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/k.png",
+            "k.png"
+          ],
+          "src": [
+            "symbols/assets/k-XAbb9g@0.5x.webp",
+            "symbols/assets/k-VXpotA@0.5x.png",
+            "symbols/assets/k-M7fkqg.png",
+            "symbols/assets/k-ile3NA.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/k_blur.png",
+            "k_blur.png"
+          ],
+          "src": [
+            "symbols/assets/k_blur-WHmqPg@0.5x.png",
+            "symbols/assets/k_blur-VDdyLA.webp",
+            "symbols/assets/k_blur-Tj_DQQ.png",
+            "symbols/assets/k_blur-M-irHw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/k_blur_.png",
+            "k_blur_.png"
+          ],
+          "src": [
+            "symbols/assets/k_blur_-YlmhAw.webp",
+            "symbols/assets/k_blur_-XEx8AQ@0.5x.webp",
+            "symbols/assets/k_blur_-TlV-gw@0.5x.png",
+            "symbols/assets/k_blur_-FHqTXw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/k_trigger.png",
+            "k_trigger.png"
+          ],
+          "src": [
+            "symbols/assets/k_trigger-tqP4.webp",
+            "symbols/assets/k_trigger-qoPJYQ@0.5x.webp",
+            "symbols/assets/k_trigger-ijZisg.png",
+            "symbols/assets/k_trigger-bNM-2Q@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/lockspinBG_red.png",
+            "lockspinBG_red.png"
+          ],
+          "src": [
+            "symbols/assets/lockspinBG_red-wnajOg.webp",
+            "symbols/assets/lockspinBG_red-RoX7Vw@0.5x.png",
+            "symbols/assets/lockspinBG_red-HYJD@0.5x.webp",
+            "symbols/assets/lockspinBG_red-0mUfOg.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o.png",
+            "o.png"
+          ],
+          "src": [
+            "symbols/assets/o-WHmqPg@0.5x.png",
+            "symbols/assets/o-VDdyLA.webp",
+            "symbols/assets/o-Tj_DQQ.png",
+            "symbols/assets/o-M-irHw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o_.png",
+            "o_.png"
+          ],
+          "src": [
+            "symbols/assets/o_-wWo0tA@0.5x.webp",
+            "symbols/assets/o_-ukSfkA@0.5x.png",
+            "symbols/assets/o_-Q0zb3g.png",
+            "symbols/assets/o_-okbNww.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o_blur.png",
+            "o_blur.png"
+          ],
+          "src": [
+            "symbols/assets/o_blur-WHmqPg@0.5x.png",
+            "symbols/assets/o_blur-VDdyLA.webp",
+            "symbols/assets/o_blur-Tj_DQQ.png",
+            "symbols/assets/o_blur-M-irHw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o_blur_.png",
+            "o_blur_.png"
+          ],
+          "src": [
+            "symbols/assets/o_blur_-YlmhAw.webp",
+            "symbols/assets/o_blur_-XEx8AQ@0.5x.webp",
+            "symbols/assets/o_blur_-TlV-gw@0.5x.png",
+            "symbols/assets/o_blur_-FHqTXw.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o_light.png",
+            "o_light.png"
+          ],
+          "src": [
+            "symbols/assets/o_light-SKvB3A.png",
+            "symbols/assets/o_light-l4spWA@0.5x.png",
+            "symbols/assets/o_light-iaXXbg.webp",
+            "symbols/assets/o_light-27jPAw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/o_old.png",
+            "o_old.png"
+          ],
+          "src": [
+            "symbols/assets/o_old-rZ0veg@0.5x.webp",
+            "symbols/assets/o_old-qA-mZw.png",
+            "symbols/assets/o_old-I8BXBw.webp",
+            "symbols/assets/o_old-hqU1aQ@0.5x.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/s.png",
+            "s.png"
+          ],
+          "src": [
+            "symbols/assets/s-Yb1U.webp",
+            "symbols/assets/s-LdPtVQ.png",
+            "symbols/assets/s-dcqd2g@0.5x.png",
+            "symbols/assets/s--nP_5A@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/s_blur.png",
+            "s_blur.png"
+          ],
+          "src": [
+            "symbols/assets/s_blur-tXeMEg@0.5x.png",
+            "symbols/assets/s_blur-S9Fiag.webp",
+            "symbols/assets/s_blur-L5c51g.png",
+            "symbols/assets/s_blur--S2b3g@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/w.png",
+            "w.png"
+          ],
+          "src": [
+            "symbols/assets/w-Wnw6GQ@0.5x.png",
+            "symbols/assets/w-qoxCkg.webp",
+            "symbols/assets/w-p_YpmA.png",
+            "symbols/assets/w-3vPXaw@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/assets/w_blur.png",
+            "w_blur.png"
+          ],
+          "src": [
+            "symbols/assets/w_blur-yh99Tg.webp",
+            "symbols/assets/w_blur-pmul9w.png",
+            "symbols/assets/w_blur-oEzoKA@0.5x.png",
+            "symbols/assets/w_blur-0DPjhg@0.5x.webp"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "symbols/Symbols.tps",
+            "Symbols.tps"
+          ],
+          "src": [
+            "symbols/Symbols-rZ1g0A.tps"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
