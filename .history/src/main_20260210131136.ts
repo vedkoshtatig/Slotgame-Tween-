@@ -1,7 +1,7 @@
 import * as PIXI from "pixi.js";
 import { Game } from "./game/Game";
 import {AssetLoader} from "./core/AssetLoader"
-
+// import {SymbolLoader} from "./SymbolLoader"
 
 
   const app = new PIXI.Application();
