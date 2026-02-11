@@ -218,7 +218,7 @@ public setTurbo(on: boolean) {
         if (i === this.reels.length - 1) {
           this.isSpinning = false;
           this.emit("spinComplete");
-         this.winController.checkWins();
+        //  this.winController.checkWins();
 
         }
       });

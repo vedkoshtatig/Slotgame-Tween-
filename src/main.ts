@@ -1,6 +1,6 @@
 import * as PIXI from "pixi.js";
 import { Game } from "./game/Game";
-import {AssetLoader} from "./core/AssetLoader"
+import {AssetLoader} from "./Assets/AssetLoader"
 
 
 
