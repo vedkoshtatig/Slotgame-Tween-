@@ -21,6 +21,7 @@ export class GameScreen extends PIXI.Container {
     
     this.gameButtons.on("spin", () => {
       this.reelArea.startSpin();
+      //  this.stakeControl.UpdateBalance();
     });
   
     this.reelArea.on("spinStart", () => {

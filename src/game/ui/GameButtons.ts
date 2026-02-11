@@ -66,11 +66,11 @@ export class GameButtons extends PIXI.Container {
     this.autoSpinBtn.on("pointerdown", () => {
       if (this.autoSpinState === 0) {
         this.autoSpinBtn.texture = Assets.get("menu_autospin_down.png");
-        this.spinBtn.texture = Assets.get("menu_autospin_down.png");
+        this.autoSpinBtn.texture = Assets.get("menu_autospin_down.png");
         this.emit("spin");
         this.autoSpinInterval = window.setInterval(() => {
           this.emit("spin");
-        }, 600);
+        }, 1000);
 
         this.autoSpinState = 1;
       } else {

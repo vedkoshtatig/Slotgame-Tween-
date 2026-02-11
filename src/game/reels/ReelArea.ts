@@ -83,13 +83,14 @@ public setTurbo(on: boolean) {
       Assets.get("s.png"),
       Assets.get("w.png"),
     ];
-    this.winController = new WinController(
+   this.winController = new WinController(
   this.reels,
+  this.resultMatrix,
   this.reelCount,
   this.visibleRows,
-  this.normalTextures,
   this.paylines
 );
+
 
     this.spawnRandomReels();
     this.buildMask();
@@ -218,7 +219,7 @@ public setTurbo(on: boolean) {
         if (i === this.reels.length - 1) {
           this.isSpinning = false;
           this.emit("spinComplete");
-        //  this.winController.checkWins();
+         this.winController.checkWins();
 
         }
       });
