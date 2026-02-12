@@ -36,7 +36,9 @@ export class WinController {
     this.paylines = paylines;
   }
 
+  
   // PUBLIC ENTRY
+  
 
   public checkWins() {
     if (this.isAnimating) return;
@@ -69,9 +71,14 @@ export class WinController {
     }
   }
 
+  
   // SEQUENTIAL PLAY
+  
 
-  private playWinningLinesSequentially(wins: WinLine[], index = 0) {
+  private playWinningLinesSequentially(
+    wins: WinLine[],
+    index = 0
+  ) {
     if (index >= wins.length) {
       this.isAnimating = false;
       this.restoreAllVisible();
@@ -85,7 +92,9 @@ export class WinController {
     });
   }
 
+  
   // PROGRESSIVE ANIMATION (3 → 4 → 5)
+  
 
   private animateProgressiveWin(
     line: number[],
@@ -122,7 +131,9 @@ export class WinController {
     step();
   }
 
+  
   // VISUAL HELPERS
+  
 
   private dimAllVisible() {
     for (let reel = 0; reel < this.reelCount; reel++) {
@@ -132,7 +143,9 @@ export class WinController {
     }
   }
 
-  private highlightVisible(winners: { reel: number; row: number }[]) {
+  private highlightVisible(
+    winners: { reel: number; row: number }[]
+  ) {
     winners.forEach((pos) => {
       this.reels[pos.reel].symbols[pos.row + 1].alpha = 1;
     });
@@ -144,5 +157,18 @@ export class WinController {
         this.reels[reel].symbols[row + 1].alpha = 1;
       }
     }
+  }
+
+  
+  // OPTIONAL: Update matrix after spin
+  
+
+  public setResultMatrix(matrix: number[][]) {
+    this.resultMatrix = matrix;
+  }
+
+  public stopAnimation() {
+    this.isAnimating = false;
+    this.restoreAllVisible();
   }
 }

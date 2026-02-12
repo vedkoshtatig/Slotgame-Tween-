@@ -24,9 +24,21 @@ export class GameScreen extends PIXI.Container {
       //  this.stakeControl.UpdateBalance();
     });
   
-    this.reelArea.on("spinStart", () => {
-      this.stakeControl.UpdateBalance();
-    });
+    this.reelArea.on("spinStart", async () => {
+  console.log("Spin started");
+
+  try {
+    let newBal = await GameScreen.getRandomNumber();
+    console.log("Random balance:", newBal);
+
+    this.stakeControl.balance = newBal;
+    this.stakeControl.UpdateBalance();
+  } catch (err) {
+    console.error("API failed:", err);
+  }
+});
+
+
     this.gameButtons.on("turboSpinOn", () => {
       this.reelArea.setTurbo(true);
     });
@@ -54,7 +66,15 @@ export class GameScreen extends PIXI.Container {
     this.build();
   }
 
-  
+  static async getRandomNumber(): Promise<number> {
+  const response = await fetch(
+    "https://qrng.anu.edu.au/API/jsonI.php?length=1&type=uint16"
+  );
+
+  const data = await response.json();
+  return data.data[0];
+}
+
   
   build() {
     const gameLogo = new PIXI.Sprite(Assets.get("7.png"));

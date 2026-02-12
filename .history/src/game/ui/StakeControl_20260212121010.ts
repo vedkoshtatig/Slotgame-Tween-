@@ -145,7 +145,7 @@ export class StakeControl extends PIXI.Container {
   }
   async UpdateBalance() {
     const data = await fetchBal(this.balance , this.stakeAmount)
-    this.balance = data.balance;
+    this.balance = this.stakeAmount;
     this.balanceText.text = `$${data.balance}\nBALANCE`;
   }
 }

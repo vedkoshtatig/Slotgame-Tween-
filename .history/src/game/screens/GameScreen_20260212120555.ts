@@ -3,6 +3,7 @@ import * as PIXI from "pixi.js";
 import { StakeControl } from "../ui/StakeControl";
 import { GameButtons } from "../ui/GameButtons";
 import { ReelArea } from "../reels/ReelArea";
+import {fetchBal} from "..//"
 import { Assets } from "pixi.js";
 export class GameScreen extends PIXI.Container {
   // textures: Record<string, PIXI.Texture >

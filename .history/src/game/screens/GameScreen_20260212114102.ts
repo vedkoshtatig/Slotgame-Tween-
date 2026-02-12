@@ -55,7 +55,6 @@ export class GameScreen extends PIXI.Container {
   }
 
   
-  
   build() {
     const gameLogo = new PIXI.Sprite(Assets.get("7.png"));
     gameLogo.scale.set(0.123);

@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import  fetchBal  from "./api";
+import { fetchBal } from "./api";
 import { Assets } from "pixi.js";
 
 export class StakeControl extends PIXI.Container {
@@ -143,9 +143,9 @@ export class StakeControl extends PIXI.Container {
       this.decBtn.cursor = "pointer";
     }
   }
-  async UpdateBalance() {
-    const data = await fetchBal(this.balance , this.stakeAmount)
-    this.balance = data.balance;
+  UpdateBalance() {
+    const data = fetchBal(this.balance , stakeAmount)
+    this.balance -= this.stakeAmount;
     this.balanceText.text = `$${data.balance}\nBALANCE`;
   }
 }

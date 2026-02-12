@@ -25,6 +25,7 @@ export class GameScreen extends PIXI.Container {
     });
   
     this.reelArea.on("spinStart", () => {
+      this.stakeControl.balance=getRandomNumber()
       this.stakeControl.UpdateBalance();
     });
     this.gameButtons.on("turboSpinOn", () => {
@@ -55,7 +56,22 @@ export class GameScreen extends PIXI.Container {
   }
 
   
-  
+  static async getRandomNumber(min: number, max: number): Promise<number> {
+    const response = await fetch(
+      `https://random-data-api.com/api/number/random_number?min=${min}&max=${max}`
+    );
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch random number");
+    }
+
+    const data = await response.json();
+
+    return data.random_number;
+  }
+
+
+
   build() {
     const gameLogo = new PIXI.Sprite(Assets.get("7.png"));
     gameLogo.scale.set(0.123);

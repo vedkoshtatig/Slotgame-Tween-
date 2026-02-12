@@ -145,4 +145,15 @@ export class WinController {
       }
     }
   }
+
+  // OPTIONAL: Update matrix after spin
+
+  public setResultMatrix(matrix: number[][]) {
+    this.resultMatrix = matrix;
+  }
+
+  public stopAnimation() {
+    this.isAnimating = false;
+    this.restoreAllVisible();
+  }
 }

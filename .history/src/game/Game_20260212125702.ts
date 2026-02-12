@@ -14,8 +14,8 @@ export class Game {
     this.app = app;
     this.gameScreen = new GameScreen(this.app);
     this.introScreen = new IntroScreen(this.app, () => {
-      this.background.removeChild(this.introScreen);
-      this.background.addChild(this.gameScreen);
+      this.app.stage.removeChild(this.introScreen);
+      this.app.stage.addChild(this.gameScreen);
     });
     this.background = new Background(this.app);
     this.background.addChild(this.introScreen)

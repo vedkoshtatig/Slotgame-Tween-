@@ -21,11 +21,11 @@ export class GameScreen extends PIXI.Container {
     
     this.gameButtons.on("spin", () => {
       this.reelArea.startSpin();
-      //  this.stakeControl.UpdateBalance();
+       this.stakeControl.UpdateBalance();
     });
   
     this.reelArea.on("spinStart", () => {
-      this.stakeControl.UpdateBalance();
+      // this.stakeControl.UpdateBalance();
     });
     this.gameButtons.on("turboSpinOn", () => {
       this.reelArea.setTurbo(true);
@@ -53,9 +53,6 @@ export class GameScreen extends PIXI.Container {
     // };
     this.build();
   }
-
-  
-  
   build() {
     const gameLogo = new PIXI.Sprite(Assets.get("7.png"));
     gameLogo.scale.set(0.123);

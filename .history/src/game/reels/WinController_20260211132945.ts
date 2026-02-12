@@ -17,45 +17,45 @@ export class WinController {
   private reels: Reel[];
   private reelCount: number;
   private visibleRows: number;
+  private normalTextures: PIXI.Texture[];
   private paylines: number[][];
-  private resultMatrix: number[][];
-
-  private isAnimating = false;
 
   constructor(
     reels: Reel[],
-    resultMatrix: number[][],
     reelCount: number,
     visibleRows: number,
+    normalTextures: PIXI.Texture[],
     paylines: number[][]
   ) {
     this.reels = reels;
-    this.resultMatrix = resultMatrix;
     this.reelCount = reelCount;
     this.visibleRows = visibleRows;
+    this.normalTextures = normalTextures;
     this.paylines = paylines;
   }
 
-  // PUBLIC ENTRY
+  
+  // WIN CHECKING
+  
+
+  private getSymbolIndex(reelIndex: number, row: number): number {
+    const reel = this.reels[reelIndex];
+    const symbol = reel.symbols[row + 1];
+    return this.normalTextures.indexOf(symbol.texture);
+  }
 
   public checkWins() {
-    if (this.isAnimating) return;
-
     const winningLines: WinLine[] = [];
 
     for (const line of this.paylines) {
       let matchCount = 1;
-
-      const firstSymbol = this.resultMatrix[0][line[0]];
+      const firstIndex = this.getSymbolIndex(0, line[0]);
 
       for (let reel = 1; reel < this.reelCount; reel++) {
-        const currentSymbol = this.resultMatrix[reel][line[reel]];
+        const currentIndex = this.getSymbolIndex(reel, line[reel]);
 
-        if (currentSymbol === firstSymbol) {
-          matchCount++;
-        } else {
-          break;
-        }
+        if (currentIndex === firstIndex) matchCount++;
+        else break;
       }
 
       if (matchCount >= 3) {
@@ -64,19 +64,19 @@ export class WinController {
     }
 
     if (winningLines.length > 0) {
-      this.isAnimating = true;
       this.playWinningLinesSequentially(winningLines);
     }
   }
 
-  // SEQUENTIAL PLAY
+  
+  // PROGRESSIVE WIN ANIMATION
+  
 
-  private playWinningLinesSequentially(wins: WinLine[], index = 0) {
-    if (index >= wins.length) {
-      this.isAnimating = false;
-      this.restoreAllVisible();
-      return;
-    }
+  private playWinningLinesSequentially(
+    wins: WinLine[],
+    index = 0
+  ) {
+    if (index >= wins.length) return;
 
     const { line, count } = wins[index];
 
@@ -85,44 +85,10 @@ export class WinController {
     });
   }
 
-  // PROGRESSIVE ANIMATION (3 → 4 → 5)
-
-  private animateProgressiveWin(
-    line: number[],
-    totalMatches: number,
-    onComplete?: () => void
-  ) {
-    let currentCount = 3;
-
-    const step = () => {
-      this.dimAllVisible();
-
-      const winners: { reel: number; row: number }[] = [];
-
-      for (let r = 0; r < currentCount; r++) {
-        winners.push({
-          reel: r,
-          row: line[r],
-        });
-      }
-
-      this.highlightVisible(winners);
-
-      if (currentCount < totalMatches) {
-        currentCount++;
-        setTimeout(step, 600);
-      } else {
-        setTimeout(() => {
-          this.restoreAllVisible();
-          onComplete?.();
-        }, 900);
-      }
-    };
-
-    step();
-  }
-
+  
+  
   // VISUAL HELPERS
+  
 
   private dimAllVisible() {
     for (let reel = 0; reel < this.reelCount; reel++) {
@@ -132,7 +98,9 @@ export class WinController {
     }
   }
 
-  private highlightVisible(winners: { reel: number; row: number }[]) {
+  private highlightVisible(
+    winners: { reel: number; row: number }[]
+  ) {
     winners.forEach((pos) => {
       this.reels[pos.reel].symbols[pos.row + 1].alpha = 1;
     });

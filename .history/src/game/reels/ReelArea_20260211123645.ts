@@ -2,6 +2,7 @@ import * as PIXI from "pixi.js";
 import { Assets } from "pixi.js";
 import { WinController } from "./WinController";
 
+
 /*
    REEL INTERFACE
    Each reel stores:
@@ -38,12 +39,12 @@ export class ReelArea extends PIXI.Container {
   private tweening: any[] = [];
   public isSpinning = false;
   private isTurbo = false;
-  public setTurbo(on: boolean) {
-    this.isTurbo = on;
-  }
+public setTurbo(on: boolean) {
+  this.isTurbo = on;
+}
 
-  //  PAYLINES
-
+    //  PAYLINES
+  
   private paylines: number[][] = [
     [0, 0, 0, 0, 0], // Top
     [1, 1, 1, 1, 1], // Middle
@@ -52,7 +53,8 @@ export class ReelArea extends PIXI.Container {
     [2, 1, 0, 1, 2], // Inverted V
   ];
 
-  //   RESULT MATRIX
+
+    //   RESULT MATRIX
 
   private resultMatrix: number[][] = [
     [11, 11, 11],
@@ -82,12 +84,12 @@ export class ReelArea extends PIXI.Container {
       Assets.get("w.png"),
     ];
     this.winController = new WinController(
-      this.reels,
-      this.resultMatrix,
-      this.reelCount,
-      this.visibleRows,
-      this.paylines
-    );
+  this.reels,
+  this.reelCount,
+  this.visibleRows,
+  this.normalTextures,
+  this.paylines
+);
 
     this.spawnRandomReels();
     this.buildMask();
@@ -101,7 +103,8 @@ export class ReelArea extends PIXI.Container {
     });
   }
 
-  //  BUILD INITIAL REELS WITH RANDOM SYMBOLS
+ 
+    //  BUILD INITIAL REELS WITH RANDOM SYMBOLS
 
   private spawnRandomReels() {
     const totalWidth =
@@ -153,13 +156,14 @@ export class ReelArea extends PIXI.Container {
     }
   }
 
-  //  MASK
+    //  MASK 
 
   private buildMask() {
     const maskWidth =
       this.reelCount * this.symbolSize + this.reelCount * this.reelGap;
 
-    const maskHeight = this.visibleRows * (this.symbolSize + this.symbolGapY);
+    const maskHeight =
+      this.visibleRows * (this.symbolSize + this.symbolGapY);
 
     const mask = new PIXI.Graphics()
       .rect(0, 0, maskWidth, maskHeight)
@@ -173,8 +177,9 @@ export class ReelArea extends PIXI.Container {
     this.addChild(mask);
   }
 
-  //  APPLY PREDEFINED RESULT TO VISIBLE ROWS
-  //  (Row+1 because row 0 is buffer)
+
+    //  APPLY PREDEFINED RESULT TO VISIBLE ROWS
+    //  (Row+1 because row 0 is buffer)
 
   private applyResult(reelIndex: number) {
     const reel = this.reels[reelIndex];
@@ -186,7 +191,8 @@ export class ReelArea extends PIXI.Container {
     }
   }
 
-  //  START SPIN
+
+    //  START SPIN
 
   public startSpin() {
     if (this.isSpinning) return;
@@ -212,13 +218,15 @@ export class ReelArea extends PIXI.Container {
         if (i === this.reels.length - 1) {
           this.isSpinning = false;
           this.emit("spinComplete");
-          this.winController.checkWins();
+         this.winController.checkWins();
+
         }
       });
     }
   }
 
-  //  MAIN UPDATE LOOP
+
+    //  MAIN UPDATE LOOP
 
   private update() {
     const now = Date.now();
@@ -269,6 +277,7 @@ export class ReelArea extends PIXI.Container {
         s.y = yPosition - symbolHeight;
 
         // When symbol respawns at top → apply result
+        if(p)
         if (s.y < 0 && prevY > this.symbolSize) {
           this.applyResult(i);
         }
@@ -276,9 +285,10 @@ export class ReelArea extends PIXI.Container {
     }
   }
 
-  // 0000000000000000000000000000000000000000000000000000000
 
-  //  TWEEN SYSTEM
+// 0000000000000000000000000000000000000000000000000000000
+
+    //  TWEEN SYSTEM
 
   private tweenTo(
     object: any,

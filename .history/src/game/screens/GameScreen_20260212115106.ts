@@ -24,9 +24,12 @@ export class GameScreen extends PIXI.Container {
       //  this.stakeControl.UpdateBalance();
     });
   
-    this.reelArea.on("spinStart", () => {
-      this.stakeControl.UpdateBalance();
-    });
+    this.reelArea.on("spinStart", async () => {
+  let newBal = await GameScreen.getRandomNumber(1000, 10000);
+  this.stakeControl.balance = newBal;
+  this.stakeControl.UpdateBalance();
+});
+
     this.gameButtons.on("turboSpinOn", () => {
       this.reelArea.setTurbo(true);
     });

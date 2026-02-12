@@ -25,7 +25,7 @@ export class GameScreen extends PIXI.Container {
     });
   
     this.reelArea.on("spinStart", () => {
-      this.stakeControl.UpdateBalance();
+      // this.stakeControl.UpdateBalance();
     });
     this.gameButtons.on("turboSpinOn", () => {
       this.reelArea.setTurbo(true);

@@ -1,5 +1,5 @@
 import * as PIXI from "pixi.js";
-import  fetchBal  from "./api";
+import { GameButtons } from "../ui/GameButtons";
 import { Assets } from "pixi.js";
 
 export class StakeControl extends PIXI.Container {
@@ -9,7 +9,7 @@ export class StakeControl extends PIXI.Container {
   win: number;
   maxCount: number;
   balanceText!: PIXI.Text;
-
+  gameButtons: GameButtons;
   incBtn!: PIXI.Sprite;
   decBtn!: PIXI.Sprite;
   constructor(app: PIXI.Application) {
@@ -20,7 +20,10 @@ export class StakeControl extends PIXI.Container {
     this.balance = 10000;
     this.win = 0;
     this.maxCount = 100;
-   
+    this.gameButtons = new GameButtons(this.app);
+    // this.gameButtons.on("spin", () => {
+    //   this.UpdateBalance();
+    // });
     this.build();
     this.updateStakeUI();
   }
@@ -143,9 +146,8 @@ export class StakeControl extends PIXI.Container {
       this.decBtn.cursor = "pointer";
     }
   }
-  async UpdateBalance() {
-    const data = await fetchBal(this.balance , this.stakeAmount)
-    this.balance = data.balance;
-    this.balanceText.text = `$${data.balance}\nBALANCE`;
+  UpdateBalance() {
+    // this.balance -= this.stakeAmount;
+    this.balanceText.text = `$${this.balance}\nBALANCE`;
   }
 }
