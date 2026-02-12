@@ -13,10 +13,13 @@ export class Game {
   constructor(app: PIXI.Application) {
     this.app = app;
     this.gameScreen = new GameScreen(this.app);
-    this.introScreen = new IntroScreen(this.app, () => {
-      this.background.removeChild(this.introScreen);
-      this.background.addChild(this.gameScreen);
-    });
+    this.introScreen = new IntroScreen(this.app);
+
+    this.introScreen.on("play" , () =>{
+      this.background.removeChild(this.introScreen)
+      this.background.addChild(this.gameScreen)
+    })
+
     this.background = new Background(this.app);
     this.background.addChild(this.introScreen)
 

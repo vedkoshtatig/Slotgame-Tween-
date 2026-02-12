@@ -6,10 +6,10 @@ export class IntroScreen extends PIXI.Container {
   // textures: Record<string, PIXI.Texture >
   app: PIXI.Application;
   screenState: number;
-  onPlay: () => void;
-  constructor(app: PIXI.Application, onPlay: () => void) {
+
+  constructor(app: PIXI.Application) {
     super();
-    this.onPlay = onPlay;
+    
     this.screenState = 0;
     // this.textures = AssetLoader.textures;
     this.app = app;
@@ -103,9 +103,11 @@ export class IntroScreen extends PIXI.Container {
 
     playBtn.eventMode = "static";
     playBtn.cursor = "pointer";
+
     playBtn.on("pointerdown", () => {
-      this.onPlay();
+      this.emit("play")
     });
+    
     playBtn.on("pointerover", () => {
       playBtn.texture = Assets.get("prePlayBtn_hover.png");
     });
